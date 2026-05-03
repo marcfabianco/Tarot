@@ -1,67 +1,123 @@
-# Tarot Game — Plan de Implementación
+# Tarot — Plan de Implementación
 
-**Objetivo:** Construir un juego de tarot web que acompaña un post de Substack sobre narrative fallacy, regresión espuria y construcción de significado. El juego es a la vez funcional (sí da una lectura) y autoconsciente (expone su propia lógica).
+**Objetivo:** Construir un juego de tarot web que se presenta como una experiencia mística pura. Acompaña a un post de Substack que, separadamente, deconstruye el juego como ilustración de narrative fallacy, regresión espuria y construcción de significado a partir del azar.
 
-**Stack:** HTML + CSS + JavaScript vanilla. Un solo archivo `index.html`, sin dependencias, deployable en GitHub Pages.
+**Stack:** HTML + CSS + JavaScript vanilla. Archivos estáticos en GitHub Pages.
 
 **Tipo de tirada (v1):** Tres cartas — pasado / presente / futuro.
 
-**Estética:** Mística minimalista. Fondo oscuro, acentos dorados, tipografía serif para textos, sans-serif para UI.
+---
+
+## Decisión arquitectónica clave (mayo 2026)
+
+El proyecto tiene **dos piezas separadas** que cumplen funciones distintas:
+
+- **La página web (este repo)** → presenta el juego como tarot directo. Sin meta-comentario, sin sección educativa colapsable, sin "ven aquí está el truco". El usuario entra, tira las cartas, lee la lectura. La atmósfera es mística.
+- **El post de Substack (separado)** → contiene la deconstrucción: aleatoriedad real, plantillas, narrative fallacy, Granger-Newbold, efecto Barnum.
+
+La página tiene únicamente un disclaimer discreto (footer o esquina) con un link al ensayo. Algo como: *"Una pieza de [autor]. Lee el ensayo →"*.
+
+**Por qué este orden importa:** el lector vive la magia primero, después lee el ensayo que revela el mecanismo. Si la página preempt el reveal, el ensayo pierde fuerza.
 
 ---
 
 ## Filosofía de diseño
 
-Tres principios que guían cada etapa:
+Tres principios duros que sobreviven el cambio arquitectónico:
 
-1. **Transparencia.** El código debe ser auditable. Los significados de las cartas viven como JSON visible en el repo, no en una base de datos opaca.
-2. **Honestidad epistémica.** El juego funciona como tarot, pero también enseña por qué funciona. La sección educativa no es un anexo: es parte central del producto.
-3. **Plantillas, no LLM.** El output narrativo se genera por plantillas con huecos. Esto es deliberado: refuerza el argumento de que una narrativa convincente puede generarse mecánicamente.
+1. **Plantillas, no LLM.** Las narrativas se generan por composición de plantillas + textos pre-escritos. No hay llamadas a ningún modelo de lenguaje. *Razón:* el ensayo del Substack va a afirmar esto literalmente. Tiene que ser verdad.
+2. **Aleatoriedad honesta.** `crypto.getRandomValues()`, no `Math.random()`. Misma razón.
+3. **Código en repo público.** Cualquiera con curiosidad puede ver el `deck.js`, el shuffle, todo. La transparencia *está disponible* aunque la página no la *exhiba*.
 
 ---
 
-## Stage 0 — Setup del repo
+## Stage 0 — Setup del repo ✅
 
-**Objetivo:** Tener la estructura mínima en GitHub Pages funcionando con un "Hello World".
-
-**Tareas:**
-- Crear repo en GitHub (sugerencia de nombre: `tarot-spurious` o `madame-sassi`).
-- Crear `index.html` con un `<h1>` placeholder.
-- Activar GitHub Pages en Settings → Pages → main branch.
-- Verificar que carga en `https://[usuario].github.io/[repo]/`.
-- Crear `README.md` con descripción del proyecto y link al post de Substack (cuando esté).
-
-**Criterio de éxito:** La URL pública carga el placeholder.
+- [x] Repo en GitHub: https://github.com/marcfabianco/Tarot
+- [x] `.gitignore` (incluye `references/`, drafts `.docx`, archivos del SO)
+- [x] `README.md` stub
+- [x] `assets/images/cards/` con las 78 cartas RWS (dominio público) + atribución
+- [ ] `index.html` placeholder
+- [ ] Activar GitHub Pages → `https://marcfabianco.github.io/Tarot/`
 
 ---
 
 ## Stage 1 — Estructura de datos del mazo
 
-**Objetivo:** Tener las 78 cartas codificadas con sus significados canónicos antes de tocar UI.
+**Objetivo:** Tener las 78 cartas codificadas con sus interpretaciones antes de tocar UI.
 
-**Tareas:**
-- Crear un objeto JS `DECK` con las 78 cartas. Cada carta es un objeto:
-  ```js
-  {
-    id: "major_12",
-    nombre: "El Colgado",
-    arcano: "mayor",  // o "menor"
-    palo: null,        // o "copas" | "bastos" | "espadas" | "oros"
-    numero: 12,
-    significado_derecho_corto: "...",   // 5-10 palabras, para la cadena lógica
-    significado_derecho_largo: "...",   // 1-2 oraciones, para narrativa
-    significado_invertido_corto: "...",
-    significado_invertido_largo: "...",
-    fuente: "Waite 1910 / Pollack 1980"
-  }
-  ```
-- Poblar las 22 cartas de Arcanos Mayores primero. Usar Waite (*The Pictorial Key to the Tarot*, 1910) para texto canónico, complementado con Pollack (*Seventy-Eight Degrees of Wisdom*, 1980) para sistematización moderna.
-- Poblar las 56 cartas Menores (4 palos × 14 cartas).
-- Validar: `DECK.length === 78`.
+**Archivo:** `js/deck.js`, exporta `const DECK = [...]`. Se carga vía `<script src>` desde `index.html` (no requiere `fetch`, doble click al HTML funciona localmente).
 
-**Criterio de éxito:** Abrir consola del navegador y poder hacer `DECK.find(c => c.nombre === "El Colgado")` y obtener el objeto completo.
+**Razón del archivo separado:** conveniencia de edición. Editar una carta = abrir un archivo, modificar dos líneas. No mezclar datos con presentación.
 
-**Nota:** Esta es la etapa más laboriosa pero la más importante. Hacerla bien una vez = juego funciona para siempre. Considerar pedir a Claude Code que genere el JSON inicial y luego revisarlo manualmente.
+### Dos interpretaciones por carta-orientación
+
+Cada carta-orientación tiene **dos interpretaciones distintas**:
+
+- `general` — la lectura amplia, aplicable a cualquier momento de vida.
+- `relacional` — enfoque en relaciones afectivas y dinero/finanzas.
+
+En cada tirada, el sistema **elige aleatoriamente** cuál de las dos mostrar para cada carta. Esto significa que la misma tirada (mismas 3 cartas, mismas orientaciones) produce lecturas distintas en momentos distintos. Es deliberado — agrega variedad y refuerza la sensación de que cada lectura es "única."
+
+### Estructura bilingüe lista desde el inicio
+
+El proyecto será bilingüe (español + inglés) con un toggle en la UI. **v1 escribimos español; inglés viene después como segunda pasada.** El JSON ya contempla los dos campos para no refactorizar después — el campo `en` queda como `null` o string vacío hasta que se llene.
+
+### Estructura por carta
+
+```js
+{
+  id: "major_12",
+  nombre: { es: "El Colgado", en: "The Hanged Man" },
+  arcano: "mayor",                  // o "menor"
+  palo: null,                        // o "copas" | "bastos" | "espadas" | "oros"
+  numero: 12,
+  imagen: "assets/images/cards/major_12.jpg",
+  derecha: {
+    general: {
+      corto: { es: "...", en: null },     // 1-2 oraciones
+      largo: { es: "...", en: null }      // 4 oraciones
+    },
+    relacional: {
+      corto: { es: "...", en: null },
+      largo: { es: "...", en: null }
+    }
+  },
+  invertida: {
+    general: {
+      corto: { es: "...", en: null },
+      largo: { es: "...", en: null }
+    },
+    relacional: {
+      corto: { es: "...", en: null },
+      largo: { es: "...", en: null }
+    }
+  },
+  fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
+}
+```
+
+### Total a escribir
+
+| Versión | Textos |
+|---|---|
+| **v1 — solo español** | 78 cartas × 2 orientaciones × 2 interpretaciones × 2 versiones (corto + largo) = **624 textos** |
+| **v2 — bilingüe** (agrega inglés) | × 2 idiomas = **1.248 textos** |
+
+### Tono
+
+- Lenguaje claro y accesible. Sin metáforas opacas que requieran definición.
+- No infantilizar, no técnico, no místico-denso.
+- `general` es realmente general — aplicable a cualquier persona.
+- `relacional` se enfoca en vínculos afectivos y dimensión material/financiera, pero sin asumir situaciones específicas (no asumir que el lector tiene pareja, deuda, trabajo asalariado, etc.).
+
+### Convenciones
+
+- Numeración Waite: Fuerza = 8, Justicia = 11.
+- Nombres en español: **pendiente decidir** (variantes existen: "El Colgado" vs "El Ahorcado", "Sota" vs "Paje", etc.).
+- Nombres en inglés: estándar RWS (The Fool, The Magician, etc.) — sin variantes contenciosas.
+
+**Validación:** `DECK.length === 78`. Cada carta tiene los 8 textos en español completos. Inglés puede quedar `null` en v1.
 
 ---
 
@@ -70,159 +126,157 @@ Tres principios que guían cada etapa:
 **Objetivo:** Función pura que toma el mazo y devuelve N cartas con orientación, usando aleatorización criptográficamente respetable.
 
 **Tareas:**
-- Implementar `shuffleDeck(deck)` usando Fisher-Yates con `crypto.getRandomValues()` (no `Math.random()`, que es predecible).
-- Implementar `drawCards(n)` que:
+- `shuffleDeck(deck)` con Fisher-Yates + `crypto.getRandomValues()`.
+- `drawCards(n)` que:
   1. Clona `DECK`.
-  2. Lo baraja 7 veces (referencia al barajeo riffle clásico — más simbólico que matemáticamente necesario, pero honra la tradición).
+  2. Lo baraja.
   3. Saca las primeras `n` cartas.
   4. Para cada carta, decide orientación con `crypto.getRandomValues()` (50/50).
-  5. Devuelve array de `{carta, orientacion: "derecha"|"invertida"}`.
-- Mostrar la semilla / timestamp en consola para auditabilidad.
+  5. Para cada carta, decide tipo de interpretación (`general` o `relacional`) con `crypto.getRandomValues()` (50/50).
+  6. Devuelve `[{carta, orientacion: "derecha"|"invertida", interpretacion: "general"|"relacional"}, ...]`.
 
-**Criterio de éxito:** Llamar `drawCards(3)` 1000 veces en consola y verificar distribución uniforme aproximada (no debe favorecer ciertas cartas).
+**Criterio de éxito:** distribución uniforme en pruebas de stress (1000 tiradas, distribuciones aproximadamente uniformes en cartas, orientaciones e interpretaciones).
 
 ---
 
-## Stage 3 — UI mínima funcional (sin estética todavía)
+## Stage 3 — UI mínima funcional (sin estética)
 
 **Objetivo:** Botón → tirada → resultados visibles. Feo pero funcional.
 
 **Tareas:**
-- HTML con: título, botón "Tirar las cartas", contenedor de resultados.
-- Al hacer click: llamar `drawCards(3)` y renderizar tres bloques con nombre + orientación.
-- Sin CSS más allá de lo mínimo para legibilidad.
-
-**Criterio de éxito:** El juego es jugable, aunque feo.
+- HTML con título, botón "Tirar las cartas", contenedor de resultados.
+- Al click: `drawCards(3)` y renderiza tres bloques con imagen + nombre + orientación.
+- CSS mínimo solo para legibilidad.
+- **Toggle de idioma** (ES / EN) en alguna esquina, accesible desde el inicio. En v1 con solo español escrito, el toggle existe pero el "EN" muestra placeholder o queda deshabilitado hasta que se llenen los textos.
 
 ---
 
-## Stage 4 — Output 1: la cadena lógica
+## Stage 4 — Output corto (la "cadena")
 
-**Objetivo:** Generar la oración "Si... entonces... entonces..." de forma seca y directa.
+**Objetivo:** Mostrar las 3 cartas con su interpretación corta, encadenadas como pasado → presente → futuro.
 
 **Tareas:**
-- Función `generarCadenaLogica(tirada)` que devuelve un string con esta estructura:
+- Función `renderCorto(tirada)` que muestra:
   ```
-  Si [carta_pasado.nombre] ([orientación]) significa [significado_corto],
-  entonces [carta_presente.nombre] ([orientación]) implica [significado_corto],
-  entonces [carta_futuro.nombre] ([orientación]) sugiere [significado_corto].
+  Pasado:    [imagen] [Carta A]   — [corto_A]
+  Presente:  [imagen] [Carta B]   — [corto_B]
+  Futuro:    [imagen] [Carta C]   — [corto_C]
   ```
-- Renderizar debajo de las cartas, con etiqueta "Cadena lógica".
-- Tipografía monoespaciada o serif sobria — debe sentirse casi clínica.
+- El texto `corto_A` viene de `cartaA.[orientacion].[interpretacion].corto[idioma]`, donde `interpretacion` (general o relacional) ya fue elegido aleatoriamente en Stage 2 y `idioma` viene del toggle de la UI.
 
-**Criterio de éxito:** El output se lee como una proposición lógica, no como una narrativa. La sequedad es deliberada.
+**Nota:** El plan original llamaba a esto "cadena lógica" con sintaxis `Si... entonces...`. Esa formulación tenía sentido cuando la página deconstruía. Ahora que la página es solo el juego, evaluar si mantener ese fraseo o ir con presentación más natural ("Pasado: ..., Presente: ..., Futuro: ..."). **Decidir antes de implementar.**
 
 ---
 
-## Stage 5 — Output 2: la narrativa por plantillas
+## Stage 5 — Output largo (la narrativa)
 
-**Objetivo:** Versión narrada de la misma información, generada por plantillas, no por LLM.
+**Objetivo:** Versión narrada que conecta las 3 cartas con prosa fluida.
 
 **Tareas:**
-- Crear un array `PLANTILLAS_NARRATIVAS` con 5-10 plantillas distintas. Cada una tiene huecos `{pasado_largo}`, `{presente_largo}`, `{futuro_largo}`, `{conector_1}`, `{conector_2}`. Ejemplo:
+- Crear arrays de conectores en español **y en inglés** (5-10 cada uno):
+  ```js
+  CONECTORES = {
+    es: {
+      pasado_presente: ["Por eso", "Como consecuencia", "De ahí que", ...],
+      presente_futuro: ["En consecuencia", "Y precisamente por ello", ...]
+    },
+    en: {
+      pasado_presente: ["That's why", "As a result", ...],
+      presente_futuro: ["Therefore", "And precisely for that reason", ...]
+    }
+  };
   ```
-  "En tu pasado, {pasado_largo}. {conector_1}, en el presente {presente_largo}.
-  {conector_2}, el futuro indica que {futuro_largo}."
+- Función `generarNarrativa(tirada, idioma)`:
   ```
-- Crear arrays de conectores: `["Por eso", "Como consecuencia", "De ahí que", "En consecuencia", "Y precisamente por ello"]`.
-- Función `generarNarrativa(tirada)` que selecciona plantilla y conectores aleatoriamente y rellena los huecos.
-- Renderizar debajo de la cadena lógica, en tipografía serif, prosa fluida.
+  En tu pasado, [largo_A]. [conector_1], en el presente [largo_B]. [conector_2], el futuro indica que [largo_C].
+  ```
+- El texto `largo_A` viene de `cartaA.[orientacion].[interpretacion].largo[idioma]` (interpretacion ya fue elegido en Stage 2).
+- Conectores se eligen aleatoriamente en cada render → variación en cada tirada aunque el contenido por carta sea fijo.
 
-**Criterio de éxito:** Diez tiradas seguidas con las mismas tres cartas producen narrativas distintas — esto es importante para el argumento del post.
-
-**Nota crítica:** No caer en la tentación de usar un LLM. La plantilla mecánica *es* el punto pedagógico. Si el usuario nota que las narrativas se repiten en estructura, mejor — eso revela el truco.
+**Política:** Determinismo donde importa (textos por carta), variación donde no afecta el sentido (conectores y elección general/relacional). La variación siempre viene de un set finito de plantillas/textos, no de generación libre. Coherente con la regla "no LLM."
 
 ---
 
-## Stage 6 — Sección educativa colapsable
+## ~~Stage 6 — Sección educativa colapsable~~ — Diferido
 
-**Objetivo:** Justo debajo de la lectura, un disclosure que explica por qué la lectura es persuasiva aunque sea aleatoria.
+Esta sección estaba en el plan original como parte de la página. Movida al Substack (ver "Decisión arquitectónica clave" arriba). Posible reincorporación a la página en versión futura, si decide ofrecerse una vista "ensayo" además de la "magia".
+
+---
+
+## Stage 7 — Estética
+
+**Objetivo:** Aplicar el look final.
+
+**Pendiente decidir** la dirección estética. Opciones discutidas:
+- **Mística minimalista** (la del plan original — fondo oscuro, dorado, serif).
+- **Editorial / literaria** (blanco, serif, casi como página de libro).
+- **Otra** — la decisión se conversa antes de empezar.
+
+Lo que sí está fijo:
+- Las cartas se renderizan con sus imágenes RWS reales (`assets/images/cards/`).
+- Orientación invertida = imagen rotada 180° vía CSS.
+- Responsive: cartas apiladas en móvil.
+
+---
+
+## Stage 8 — README final + footer + link a Substack
 
 **Tareas:**
-- Elemento `<details>` con `<summary>` que diga algo como: *"¿Por qué esto suena tan convincente? →"*.
-- Contenido desplegado: 4-5 párrafos cortos explicando:
-  1. **Aleatoriedad real.** Link al código fuente del shuffle, mencionar `crypto.getRandomValues()`.
-  2. **Efecto Barnum.** Los significados son lo bastante ambiguos para aplicar a casi cualquier persona.
-  3. **Narrative fallacy.** Referencia a Kahneman / Taleb. El cerebro convierte secuencias en historias causales aunque no haya causalidad.
-  4. **Regresión espuria.** Analogía con Granger & Newbold (1974): dos series temporales aleatorias pueden mostrar correlaciones altísimas. Aquí pasa lo simbólico.
-  5. **Lo que sí queda.** El valor del ejercicio como prompt aleatorio para introspección dirigida (à la *Oblique Strategies* de Eno o *rubber duck debugging*).
-- Cada punto con referencia bibliográfica al final.
-
-**Criterio de éxito:** Alguien que solo lee esta sección entiende la tesis del post sin haber leído el Substack.
+- README explicando el proyecto en términos de la página (juego de tarot) + link al ensayo.
+- Footer/esquina de la página con disclaimer discreto + link al Substack.
+- Bibliografía en el README:
+  - Waite, A.E. (1910). *The Pictorial Key to the Tarot*.
+  - Pollack, R. (1980). *Seventy-Eight Degrees of Wisdom*.
+  - Labyrinthos Academy (consultado para tono moderno).
+  - Biddy Tarot (consultado para tono moderno).
+- Licencia: MIT para el código, CC-BY para los textos interpretativos.
 
 ---
 
-## Stage 7 — Estética: mística minimalista
+## Stage 9 — Mejoras post-launch (opcional)
 
-**Objetivo:** Aplicar el look final. Fondo oscuro, acentos dorados, jerarquía tipográfica clara.
-
-**Tareas:**
-- Paleta:
-  - Fondo: `#0d0a14` (negro violáceo)
-  - Texto principal: `#e8e3d3` (crema)
-  - Acento dorado: `#c9a961` (no demasiado brillante)
-  - Texto secundario: `#8a7f6e`
-- Tipografía:
-  - Títulos / cartas: serif de display (sugerencia: Cormorant Garamond, EB Garamond — ambas en Google Fonts).
-  - Prosa: serif de lectura (Crimson Text, Lora).
-  - UI / botones / código: sans-serif (Inter, IBM Plex Sans).
-- Cartas: rectángulos con borde dorado fino, número romano en esquina superior, nombre centrado, orientación indicada con un símbolo (↑ derecha, ↓ invertida) o rotando visualmente la carta 180° si está invertida.
-- Botón "Tirar las cartas" con borde dorado, hover sutil.
-- Animación: al tirar, breve fade-in escalonado de las tres cartas (200ms cada una). Sin más efectos — la estética es contenida, no de feria.
-- Responsive: en móvil, las cartas apiladas verticalmente.
-
-**Criterio de éxito:** Se ve elegante en desktop y móvil. No hay un solo emoji místico ni una luna animada. La sobriedad *es* el estilo.
+- **Llenar los textos en inglés** (~624 textos) — el toggle de idioma ya existe en v1 pero solo español está poblado.
+- **Permalink a cada tirada**: codificar la tirada en la URL para compartir.
+- **Cruz Celta** (10 cartas) como modo alternativo.
+- **Sección educativa colapsable** (la diferida del Stage 6) si se quiere ofrecer las dos lecturas — magia y deconstrucción — en el mismo lugar.
 
 ---
 
-## Stage 8 — README y referencias
+## Estructura del repo
 
-**Objetivo:** Documentación que da seriedad al proyecto y conecta con el Substack.
-
-**Tareas:**
-- `README.md` con:
-  - Descripción breve del proyecto y su propósito doble (juego + experimento epistémico).
-  - Link al post de Substack.
-  - Sección "Cómo funciona" con los tres principios de diseño.
-  - Sección "Bibliografía":
-    - Waite, A.E. (1910). *The Pictorial Key to the Tarot*.
-    - Pollack, R. (1980). *Seventy-Eight Degrees of Wisdom*.
-    - Kahneman, D. (2011). *Thinking, Fast and Slow*.
-    - Taleb, N.N. (2007). *The Black Swan* (capítulo sobre narrative fallacy).
-    - Granger, C.W.J. & Newbold, P. (1974). "Spurious regressions in econometrics". *Journal of Econometrics*, 2(2).
-    - Forer, B.R. (1949). "The fallacy of personal validation: A classroom demonstration of gullibility". *Journal of Abnormal and Social Psychology*.
-  - Licencia (sugerencia: MIT para el código, CC-BY para los textos interpretativos).
-- Link al README desde el footer del juego.
-
-**Criterio de éxito:** Cualquier visitante del repo entiende el proyecto sin contexto previo.
+```
+Tarot/
+├── index.html
+├── README.md
+├── tarot-game-plan.md       (este archivo)
+├── .gitignore
+├── assets/
+│   └── images/
+│       ├── cards/           (78 cartas RWS + ATTRIBUTION.md)
+│       └── (favicon, OG image cuando se haga estética)
+├── js/
+│   └── deck.js              (Stage 1 — pendiente)
+└── references/              (gitignored — uso local)
+    └── interpretaciones/    (Waite + Labyrinthos + Biddy URLs)
+```
 
 ---
 
-## Stage 9 (opcional) — Mejoras post-launch
+## Decisiones pendientes (a conversar antes de avanzar)
 
-Ideas para iterar después del primer release:
-
-- **Modo Cruz Celta** (10 cartas) como toggle.
-- **Permalink a cada tirada**: codificar la tirada en la URL (`?cards=major_12_inv,minor_oros_9_up,...`) para compartir.
-- **Modo "solo cartas, sin interpretación"** — el usuario interpreta solas. Refuerza el argumento de que el significado lo pone el lector.
-- **Contador de tiradas en sesión** y log local con `localStorage`. Permite al usuario ver cómo el azar produce patrones aparentes en muestras pequeñas.
-- **Versión inglés/español** con toggle.
-- **Modo "lectura en frío vs canónica"**: dos botones que generan distinto tipo de narrativa para que el usuario compare.
+1. **Nombres en español de las cartas** (variantes regionales: "El Colgado" vs "El Ahorcado", "Sota" vs "Paje", "El Loco" vs "El Tonto", etc.).
+2. **Quién escribe los 312 textos** — ¿draft generado por Claude desde las fuentes para que tú revises, o los escribes tú desde cero?
+3. **Tono del Stage 4** — ¿se mantiene la sintaxis "Si... entonces..." de la versión deconstructiva, o se va a presentación natural?
+4. **Estética del Stage 7** — dirección visual.
 
 ---
 
 ## Notas para el post de Substack
 
-Cosas que el juego *demuestra* y que puedes apoyarte para escribir:
+Cosas que el juego *demuestra*:
 
 - **El truco no está en el manual, está en la capa interpretativa.** El juego solo aplica el manual; aun así suena convincente.
-- **La forma narrativa hace el trabajo causal.** "Si... entonces..." convierte coincidencia en consecuencia.
+- **La forma narrativa hace el trabajo causal.** Conectores como "Por eso" convierten coincidencia en consecuencia.
 - **Plantillas vs. LLMs vs. tarotistas humanos**: los tres producen "lecturas" plausibles. Esto debería preocuparnos sobre cómo evaluamos credibilidad en otros dominios (consultoría, predicción macro, análisis político).
-- **Conexión con tu campo:** la regresión espuria de Granger-Newbold es exactamente el equivalente cuantitativo. Series aleatorias correlacionadas → narrativa causal aleatoria. Mismo error cognitivo, distinto vehículo.
+- **Conexión con econometría:** la regresión espuria de Granger-Newbold (1974) es exactamente el equivalente cuantitativo. Series aleatorias correlacionadas → narrativa causal aleatoria. Mismo error cognitivo, distinto vehículo.
 - **Lo que sobrevive a la crítica:** la utilidad del azar simbólico como prompt de introspección estructurada. No predicción, sí provocación cognitiva.
-
----
-
-**Tiempo estimado total:** 6-10 horas con Claude Code, dependiendo de cuánto tiempo dediques a poblar bien los 78 significados (Stage 1) y a la estética (Stage 7).
-
-**Orden recomendado de implementación:** Stages 0 → 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8. Estética al final — primero que funcione, después que se vea bien.
