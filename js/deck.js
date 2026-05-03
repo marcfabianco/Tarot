@@ -1147,22 +1147,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_02.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Una conexión genuina con otra persona. Lo que cada uno aporta encuentra su correspondencia exacta.",
+          en: null
+        },
+        largo: {
+          es: "Hay un encuentro de iguales en marcha. Dos partes que reconocen lo que el otro tiene y lo que aporta lo propio. La carta marca el inicio de un vínculo donde ambas partes se sostienen mutuamente sin perder lo individual. La fuerza de esta unión está en el equilibrio del intercambio.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja en armonía o el inicio de una. En lo material, una sociedad o acuerdo entre dos partes que se respetan.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación donde ambas personas se eligen activamente y se cuidan con la misma intensidad. La compañía suma sin restar individualidad. En lo financiero, una sociedad o acuerdo entre dos partes encuentra equilibrio: aportes proporcionales, decisiones compartidas, beneficios distribuidos con justicia. Lo que se construye con otro tiene más raíz que lo que se construye solo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El equilibrio entre dos partes se rompió. Algo del intercambio dejó de fluir.", en: null },
+        largo: {
+          es: "La igualdad del vínculo está rota: alguien da más, alguien recibe más, o las dos partes se confundieron en una sola sin individualidad. La codependencia puede pasar por intimidad pero ahoga lentamente. Recuperar el balance pide que cada uno vuelva a tener vida propia. Sin diferencia entre dos no hay encuentro posible.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja desbalanceada que no termina de nombrarlo. En lo material, una sociedad donde uno aporta más y nadie lo dice.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación donde uno asumió el rol que el otro abandonó: cuidar, sostener, decidir. Ese desequilibrio agota a quien carga y aleja a quien recibe sin reciprocidad. En lo financiero, hay una sociedad o acuerdo entre dos donde el reparto se torció: aportes desiguales, beneficios mal distribuidos, decisiones tomadas por una sola parte. Renegociar es la salida.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1176,22 +1197,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_03.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Una celebración compartida, propia o ajena. Lo logrado se festeja con quienes acompañaron.",
+          en: null
+        },
+        largo: {
+          es: "Hay un momento de alegría comunitaria. Algo bueno se completa y pide ser celebrado en compañía. Las amistades, los grupos, los círculos cercanos toman protagonismo. Lo que se vive con otros pesa distinto que lo que se vive en privado.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Afectivamente, una amistad importante o un grupo que sostiene. En lo material, una recompensa que coincide con un momento social.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, los vínculos cercanos están en buen estado: encuentros que reconfortan, complicidad con amigos, una pareja que se nutre del entorno común. El amor también puede llegar desde un círculo de amistades. En lo financiero, hay un logro que se da en contexto colectivo: una venta, un evento, un proyecto compartido que rinde. Compartir lo bueno multiplica más que retenerlo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La celebración tiene gusto a poco. Algo del entorno social drena más de lo que aporta.", en: null },
+        largo: {
+          es: "Hay exceso o desencuentro en lo grupal: fiestas que cansan, círculos donde la cercanía se siente vacía, chismes que llegan donde no deberían. La calidad de los vínculos pesa más que la cantidad. Cuando lo social agota en vez de nutrir, conviene mirar a quién se le sigue dando tiempo. No todo lo que se llama amistad lo es.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, un tercero o un grupo entrometiéndose donde no le toca. En lo material, un evento social genera más gasto que celebración.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja siendo afectada por terceros: comentarios externos, una amistad que se cruza, alguien tratando de meterse donde no le compete. La defensa del vínculo se hace en privado y de a dos. En lo financiero, un compromiso social (boda, cumpleaños, viaje grupal) genera más estrés que disfrute por su costo. Lo prudente es ajustar gastos antes que ceder a la presión social.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1205,22 +1247,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_04.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Algo se ofrece y la mirada está en otro lado. La oportunidad existe pero pasa desapercibida.",
+          en: null
+        },
+        largo: {
+          es: "Hay un momento de retraimiento: cansancio, apatía, una sensación de que nada vale el esfuerzo. La carta señala que hay algo siendo ofrecido y la atención está demasiado puesta en lo perdido para verlo. El descontento puede ser legítimo y al mismo tiempo estar tapando lo que sí está disponible. Salir del trance pide levantar la vista del propio descontento.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, desinterés o saturación con lo que hay. En lo material, una propuesta económica recibida con indiferencia.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, una relación pierde brillo por costumbre o por exceso de exigencia interna. La frescura dejó de notarse aunque siga estando. En lo financiero, llega una propuesta (oferta de trabajo, oportunidad de inversión, ayuda ofrecida) y se la mira con escepticismo o cansancio. Antes de descartarla, vale revisar si la apatía está hablando por encima del juicio.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La atención vuelve. Algo que se había ignorado empieza a ser visto con otros ojos.", en: null },
+        largo: {
+          es: "La carta invertida marca la salida del estancamiento. Lo que se rechazaba por desinterés vuelve a interesar. Hay una reconexión con el deseo, con la posibilidad, con lo que estaba esperando ser recibido. La sensibilidad se reactiva después de un período de bloqueo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, vuelve la apertura después de un cierre. En lo material, una oportunidad rechazada vuelve a presentarse.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, una persona empieza a salir del aislamiento: vuelve a aceptar invitaciones, a mostrarse, a permitirse vínculo. El deshielo es gradual y no requiere apuro. En lo financiero, una propuesta dejada de lado vuelve a considerarse con mejor disposición. La diferencia entre rechazar por hartazgo y rechazar por convicción se vuelve clara, y permite decidir mejor.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1234,22 +1297,40 @@ const DECK = [
     imagen: "assets/images/cards/copas_05.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Algo se perdió y la mirada está fija en eso. Lo que sí quedó está fuera del foco actual.", en: null },
+        largo: {
+          es: "Hay un duelo en proceso. La pérdida es real y merece ser sentida, pero el dolor se está volviendo paisaje. Tres copas caídas reciben atención mientras dos siguen en pie, esperando ser vistas. Salir del lamento pide girar la cabeza despacio hacia lo que sí se conservó.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, un duelo de relación o una decepción reciente. En lo material, una pérdida económica que pesa más por lo simbólico que por la cifra.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, una ruptura, una traición o un desencuentro están dominando la mirada. La herida es legítima y al mismo tiempo está tapando lo que aún queda: amistades, otros vínculos, capacidad propia de querer. En lo financiero, una pérdida material duele tanto por lo que representaba como por su valor concreto: un trabajo, un negocio, una expectativa. Reordenar empieza por inventariar lo que sigue en pie.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El duelo empieza a ceder. La mirada se levanta y encuentra lo que estaba esperando.", en: null },
+        largo: {
+          es: "La carta invertida marca la salida del lamento. Hay una aceptación silenciosa de la pérdida, sin necesidad de borrarla. Lo que sigue en pie empieza a recibir el cuidado que merecía. El paso siguiente se vuelve posible cuando el peso del pasado deja de ser referencia única.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una herida cicatriza y abre espacio para nuevo vínculo. En lo material, recuperación después de un golpe económico.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, lo que dolió se va integrando: una ruptura procesada, un duelo elaborado, una traición que dejó aprendizaje. La capacidad de amar vuelve sin cargar el peso anterior. En lo financiero, lo que sobrevivió a la pérdida alcanza para reconstruir otra vez. La nueva versión suele ser más realista y por eso más sólida.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1263,22 +1344,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_06.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "El pasado vuelve con dulzura. Una memoria, una persona o un lugar conocido reaparece y aporta calor.",
+          en: null
+        },
+        largo: {
+          es: "Hay una vuelta a lo familiar: gente conocida, recuerdos de infancia, espacios que sostienen sin pedir nada. La carta marca un descanso del presente exigente, un permiso para estar en lo conocido. Las raíces, las amistades viejas, la familia de origen ofrecen algo sólido. Lo que viene de lejos puede ayudar a entender lo que pasa cerca.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, un reencuentro con alguien del pasado o una relación que retoma calor. En lo material, una ayuda familiar o un recurso heredado aparece.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación que recupera intimidad después de distancia, o aparece alguien del pasado con quien hay historia. La nostalgia es bienvenida si no termina de reemplazar al presente. En lo financiero, llega ayuda desde el círculo cercano: familia, amistades de toda la vida, alguien que decide acompañar materialmente. Recibir desde ese lugar tiene la calidad de la continuidad familiar más que de la deuda.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La nostalgia se volvió refugio permanente. El presente queda en segundo plano.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento donde mirar atrás dejó de ser descanso y se volvió evasión. Hay una atadura emocional con un pasado idealizado que impide habitar el presente. El pasado se recuerda con filtro: aparece dulce porque se omitieron sus partes duras. Avanzar requiere soltar la versión dorada para poder ver lo que hay frente a uno.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, vínculos viejos pesando más que los actuales. En lo material, autonomía que pide salir del nido familiar.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una expareja, un primer amor o un vínculo idealizado bloqueando la posibilidad de querer en el presente. La comparación constante hace imposible que algo nuevo crezca. En lo financiero, hay una madurez material que pide independizarse: dejar la casa familiar, dejar de depender económicamente, asumir responsabilidades propias. El paso es incómodo y necesario.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1292,22 +1394,40 @@ const DECK = [
     imagen: "assets/images/cards/copas_07.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Demasiadas opciones brillan al mismo tiempo. No todas las que parecen oro lo son.", en: null },
+        largo: {
+          es: "Hay una multiplicidad de caminos disponibles y eso confunde más de lo que ayuda. La carta nombra el momento donde la fantasía gana terreno sobre la decisión concreta. Algunas opciones son reales y otras son proyecciones del deseo. Distinguir entre las dos pide pasar de la imaginación al examen.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, varios candidatos posibles o una fantasía dominando lo real. En lo material, propuestas tentadoras que piden segundo análisis.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una situación donde aparecen varios intereses al mismo tiempo, o donde el deseo está más en la imaginación que en la persona concreta. La idealización tapa lo que sí está disponible para tocar. En lo financiero, llegan ofertas y oportunidades atractivas, pero al menos una es ilusión. Antes de elegir, conviene ver cuál sostiene la mirada al mediodía.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La confusión empieza a despejarse. Una opción se distingue del resto.", en: null },
+        largo: {
+          es: "La carta invertida marca el paso de la fantasía a la decisión. Lo que era nube se vuelve dirección. Algo del exceso de posibilidades se ordena, y queda claro qué corresponde elegir. La voluntad recupera el control sobre lo imaginado.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una elección clara entre varias posibilidades. En lo material, foco financiero recuperado.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, alguien decide cuál relación realmente quiere sostener, dejando atrás las fantasías paralelas. La claridad sobre lo que se busca atrae lo que corresponde. En lo financiero, una decisión postergada por exceso de opciones se concreta: una inversión elegida, una compra hecha, un proyecto al que se le da prioridad. La energía dispersa vuelve a ser productiva al concentrarse.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1321,22 +1441,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_08.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Algo conocido pide ser dejado atrás. La salida está disponible para quien la decida tomar.",
+          en: null
+        },
+        largo: {
+          es: "Hay un momento de despedida silenciosa: una situación, una etapa, un lugar emocional ya cumplió su función. La carta nombra el coraje de irse antes que el desgaste lo decida por uno. Lo que se construyó importa, y aún así no es razón suficiente para quedarse. El próximo capítulo pide espacio que solo se libera al soltar el anterior.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una decisión de partir de algo que ya no nutre. En lo material, dejar atrás un trabajo o proyecto agotado.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay claridad sobre que una relación llegó a su fin, aunque haya sido buena. La decisión se toma con tristeza pero sin ambigüedad. En lo financiero, hay una renuncia en marcha: dejar un empleo estable que no satisface, cerrar un negocio que se sostuvo demasiado tiempo, soltar una inversión emocional que dejó de rendir. La pérdida material se compensa con recuperar la propia vida.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay impulso de irse y algo aún retiene. La indecisión prolonga el desgaste.", en: null },
+        largo: {
+          es: "La carta invertida marca el conflicto entre saber que hay que partir y no animarse. Lo familiar pesa más que el ánimo de cambio. La permanencia por miedo a lo desconocido tiene su propio costo, que se acumula sin nombre. La decisión postergada se vuelve más cara cada día que se posterga.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien sostiene una relación por miedo a estar solo. En lo material, alguien permanece en un trabajo agotador por seguridad.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación que dejó de funcionar y que se sostiene por costumbre, miedo a empezar de nuevo, o pena del otro. Esa permanencia agota a las dos partes sin nombrarse. En lo financiero, hay un trabajo o emprendimiento del que se debería partir y se aplaza por la seguridad económica que ofrece. El precio de la estabilidad puede ser mayor al beneficio cuando se mide en bienestar.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1350,22 +1491,40 @@ const DECK = [
     imagen: "assets/images/cards/copas_09.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Lo deseado encuentra cumplimiento. Hay satisfacción material y emocional disponible.", en: null },
+        largo: {
+          es: "Es la carta del deseo cumplido. Algo que se buscaba con ganas llega y trae la sensación de estar bien. La abundancia presente pide ser registrada, agradecida, disfrutada. Antes de saltar al siguiente deseo, vale habitar este.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una satisfacción profunda con la pareja o con el estado actual. En lo material, una recompensa concreta y bien recibida.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, una relación da exactamente lo que se esperaba: cariño, presencia, alegría compartida. La pareja se siente como hogar. En lo financiero, llega un fruto material concreto: aumento, bonus, venta, retorno de inversión. La sensación de tener lo necesario, y un poco más, se hace tangible. El placer del logro pide ser registrado antes de pensar en lo próximo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Lo que parecía pleno tiene gusto a poco. Hay logros sin satisfacción real.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento donde lo aparentemente bueno no llena. Las cajas están tachadas pero algo falta. La satisfacción material o externa no compensa una insatisfacción más profunda. Vale revisar qué deseo real está siendo confundido con el deseo cumplido.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja que en el papel funciona pero algo la limita. En lo material, una abundancia que no se traduce en bienestar.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, una relación tiene todos los componentes esperados (estabilidad, presencia, planes) y aún así falta algo: profundidad, complicidad, deseo. La conversación honesta sobre eso es lo que puede destrabar. En lo financiero, hay holgura material que no se traduce en sensación de seguridad: dinero ahorrado pero ansiedad alta, ingresos buenos pero sin sentido de propósito. Lo material por sí solo no resuelve lo que es falta interior.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1379,22 +1538,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_10.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Una plenitud emocional duradera. La felicidad acá se mide en relaciones más que en logros.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe una armonía emocional plena, sostenida en el tiempo. Hay vínculos cercanos funcionando bien: pareja, familia, amistades elegidas. La sensación de pertenencia y de hogar se hace concreta. Esta plenitud tiene la cualidad de lo construido despacio y por eso es más estable que otras formas de éxito.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación o familia en su mejor momento. En lo material, estabilidad compartida con quienes importan.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una vida en pareja o en familia que da sentido a lo demás. La cotidianidad se vive con gratitud, las decisiones grandes se piensan juntas, hay proyecto común sostenido. En lo financiero, la estabilidad económica está al servicio del bienestar compartido: una casa, un viaje juntos, recursos para los hijos o para los seres queridos. La abundancia compartida pesa más que la abundancia solitaria.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La armonía familiar tiene grietas. Algo del proyecto compartido no funciona como muestra.", en: null },
+        largo: {
+          es: "La carta invertida marca disonancia entre la imagen y la realidad. La familia parece bien por fuera y duele por dentro: tensiones no nombradas, expectativas frustradas, gente cumpliendo roles sin sentir lo que el rol pide. La diferencia entre lo que se proyecta y lo que se vive empieza a hacer ruido. Sanar pasa por reconocer la grieta antes de simular cohesión.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, conflicto familiar o de pareja que erosiona lo cotidiano. En lo material, disputas económicas dentro de la familia.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay tensión sostenida en una pareja o en el grupo familiar: intervenciones de terceros, expectativas no acordadas, viejos resentimientos que reaparecen. La unidad pide ser defendida desde adentro. En lo financiero, hay disputas dentro del círculo cercano: una herencia, un préstamo familiar no devuelto, un negocio compartido con desacuerdos. Resolver requiere separar lo afectivo de lo material para poder mirar cada cosa con claridad.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1408,22 +1588,40 @@ const DECK = [
     imagen: "assets/images/cards/copas_11.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Llega un mensaje del lado emocional. Algo nuevo se abre en lo sensible.", en: null },
+        largo: {
+          es: "Hay una sensibilidad recién despierta. Una idea creativa, una intuición sorpresiva, una emoción inesperada llega y pide atención. La carta describe la apertura curiosa al propio mundo interno, sin demanda de productividad. Lo que se siente sin nombrar bien está empezando a buscar forma.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien joven o emocionalmente fresco entra en escena. En lo material, una propuesta inicial que nace del afecto.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un encuentro con cualidad de ternura: una persona dulce, soñadora, en proceso de descubrimiento emocional. La intimidad se construye con paciencia y curiosidad mutua. En lo financiero, llega una propuesta o invitación nacida del afecto antes que del cálculo: un proyecto entre amigos, una invitación a colaborar, una idea pequeña con potencial creativo. Las cosas pequeñas también tienen su importancia.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Una emoción sin canalizar se desborda. Hay sensibilidad sin sostén.", en: null },
+        largo: {
+          es: "La carta invertida nombra una inmadurez emocional que se manifiesta en reacciones desproporcionadas. Hay creatividad atascada porque la inseguridad pesa más que la voluntad de crear. El mundo interno demanda atención sin saber cómo pedirla. Aprender a sostener lo sentido, sin descargarlo en otros, es el trabajo pendiente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien (propio u otro) reacciona con drama infantil. En lo material, una propuesta poco realista que requiere bajada a tierra.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona en juego con dificultad para regular sus emociones: rabietas, escenas, sensibilidad herida fácilmente. La paciencia tiene límite. En lo financiero, llega una propuesta entusiasta que no resiste números: una idea apasionada sin plan concreto, una promesa sentida sin cálculo. Antes de comprometerse, conviene pedir el plan escrito.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1437,22 +1635,40 @@ const DECK = [
     imagen: "assets/images/cards/copas_12.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Una propuesta romántica o creativa se acerca. La emoción busca expresión visible.", en: null },
+        largo: {
+          es: "Hay un movimiento que viene desde el corazón hacia afuera: una invitación, una declaración, una propuesta hecha con intención. La carta describe el momento donde lo sentido se vuelve gesto. La cualidad del Caballero es ofrecer sin exigir respuesta inmediata. Lo que se acerca pide ser recibido con apertura, sin decidir todavía.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una propuesta concreta o un romance con energía. En lo material, una oferta hecha con cuidado y carisma.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, llega una invitación clara: una declaración de amor, una propuesta de compromiso, alguien que acerca su intención sin juego. La sinceridad del gesto pide reciprocidad o respuesta honesta. En lo financiero, aparece una propuesta presentada con encanto: una oferta de trabajo cuidadosamente hecha, una invitación a sumarse a un proyecto. Lo que se ofrece tiene fondo más allá de la forma.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Las palabras pesan más que las acciones. Hay encanto sin sustancia.", en: null },
+        largo: {
+          es: "La carta invertida nombra al seductor: alguien que dice todo lo que se quiere oír y entrega poco. La promesa es bonita y vacía. La capacidad de presentar bien se está usando para evitar el compromiso real. Distinguir gesto de palabra es la tarea aquí.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien promete sin cumplir. En lo material, una oferta brillante que no resiste lectura cuidadosa.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona (puede ser uno mismo) que acerca con palabras dulces sin respaldo: declaraciones grandes, planes vagos, ausencias en el momento concreto. Las acciones acumuladas dan más información que cualquier discurso. En lo financiero, una propuesta llega con presentación impecable y letra chica problemática: condiciones poco claras, retornos prometidos sin base, plazos elásticos. La regla es leer dos veces antes de firmar una.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1466,22 +1682,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_13.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay una capacidad de sostener emocionalmente, propia o cercana. La empatía está disponible y se nota.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe una madurez emocional funcionando bien. Hay capacidad para escuchar sin imponer, para acompañar sin invadir, para sentir profundo sin perderse. Esa cualidad atrae confianza desde otros y permite que cosas delicadas encuentren cauce. El trabajo pendiente es no agotarse en el cuidado de los demás.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja o vínculo donde la sensibilidad se cuida mutuamente. En lo material, una decisión tomada con cabeza y corazón en proporción justa.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde la profundidad emocional sostiene más que la pasión inicial. La intimidad se construye en escuchar y ser escuchado sin filtro. En lo financiero, hay decisiones tomadas considerando tanto los números como las personas: ayudar a un familiar con sentido, dar un préstamo donde corresponde, gastar en quien importa. Lo material al servicio del afecto se vuelve significativo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Las emociones desbordan o se usan para manipular. La sensibilidad perdió equilibrio.", en: null },
+        largo: {
+          es: "La carta invertida nombra dos extremos posibles: o demasiada emoción que se descarga sobre otros, o emocionalidad usada como herramienta para conseguir. La empatía propia, exagerada, lleva a cargar lo que no es propio. Y la empatía instrumentalizada hiere a quien confía. Recuperar el centro pide diferenciar entre sentir y reaccionar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, un vínculo donde uno se vuelve terapeuta del otro. En lo material, gasto compulsivo por incomodidad emocional.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación donde una parte sostiene emocionalmente a la otra sin reciprocidad. La carga acumulada agota a quien acompaña y no madura a quien recibe. En lo financiero, las emociones están guiando decisiones materiales sin filtro: compras impulsivas para calmar ansiedad, regalos costosos para tapar culpa, gastos hechos por incomodidad interna. La conciencia de la conexión emoción-gasto es ya parte de la solución.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1495,22 +1732,43 @@ const DECK = [
     imagen: "assets/images/cards/copas_14.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La calma se mantiene cuando todo lo demás se agita. Las emociones se reconocen y se canalizan.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe una madurez emocional probada. Hay capacidad de mantener la cabeza fría en situaciones cargadas, sin que eso signifique desconectarse de lo que se siente. La diplomacia natural permite mediar entre partes en conflicto sin tomar posición precipitada. Esta calma viene de atravesar muchas tormentas y funciona como fundamento.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja con diálogo maduro y mediación equilibrada. En lo material, decisiones financieras tomadas con cabeza fría y corazón presente.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde los conflictos se procesan con palabras más que con escenas. La capacidad de escuchar sin reaccionar permite resolver lo que en otros vínculos se atasca. En lo financiero, hay equilibrio entre el cálculo y el cuidado: inversiones pensadas, gastos justificados, decisiones que combinan rentabilidad con responsabilidad afectiva. Lo profesional y lo personal se manejan sin contradicción.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La calma esconde algo. Bajo la superficie hay emoción reprimida o usada para controlar.", en: null },
+        largo: {
+          es: "La carta invertida nombra el costo de la represión emocional sostenida. Lo que parece serenidad puede ser desconexión, y lo que parece equilibrio puede ser manipulación bien disfrazada. Las emociones embotelladas terminan saliendo de formas indirectas: pasividad agresiva, sarcasmo, retiros silenciosos. Reconectar con lo sentido honestamente es el trabajo aquí.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien controla la temperatura del vínculo a su antojo. En lo material, decisiones financieras tomadas con emoción reprimida que después estalla.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte mantiene la calma de manera estratégica: usa el silencio como castigo, distribuye afecto a cuentagotas, hace sentir al otro responsable de la armonía. La diplomacia se transformó en herramienta de poder. En lo financiero, hay decisiones aparentemente racionales tomadas con emoción no procesada por debajo: gastos que después generan resentimiento, inversiones que después se reprochan, compromisos asumidos por culpa. Procesar la emoción antes de decidir cambia el resultado.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
