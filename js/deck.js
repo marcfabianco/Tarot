@@ -3149,22 +3149,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_01.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Una oportunidad concreta se presenta. Hay una semilla material lista para ser sembrada.", en: null },
+        largo: {
+          es: "La carta nombra un nuevo comienzo en lo material. Algo tangible se ofrece: un trabajo, una salud que se recupera, un recurso que aparece, una posibilidad de crecimiento sólida. La condición es estar dispuesto a trabajarlo. Lo que se planta con cuidado en este momento puede sostener mucho tiempo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación con cualidad estable y nutritiva. En lo material, un ingreso, oferta o recurso nuevo aparece.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación que combina afecto con estabilidad: una pareja que ofrece base concreta, no solo emoción intensa. La generosidad se traduce en gestos cotidianos. En lo financiero, llega una oportunidad material concreta: un trabajo, un negocio, una herencia, un préstamo aprobado. La clave es construir sobre eso despacio y con cabeza.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La oportunidad pasa o llega con asteriscos. Hay falta de planeamiento donde se necesitaba.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca un comienzo material que se complica o no llega. Una oferta atractiva resulta menos buena de lo que parecía, o una oportunidad pasa por falta de preparación. Hay aprendizaje sobre revisar antes de aceptar. La escasez momentánea pide ajuste antes que pánico.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación con problemas materiales que generan tensión. En lo material, una oportunidad financiera que conviene mirar dos veces.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde lo material está creando tensión: ingresos desbalanceados, decisiones financieras no compartidas, ansiedad por la situación económica común. Conversar lo concreto desactiva mucho. En lo financiero, hay una oferta atractiva con detalles preocupantes: un negocio que promete demasiado, una inversión sin garantías, un trabajo con condiciones turbias. La precaución acá protege.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3178,22 +3199,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_02.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay varias cosas en el aire al mismo tiempo. La adaptación constante es la habilidad necesaria.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe el malabarismo necesario para manejar múltiples responsabilidades. Trabajo, casa, vínculos, salud, dinero, todo pide atención simultánea. La habilidad acá es priorizar sin soltar lo importante. Lo que se sostiene con balance no se cae aunque la situación sea inestable.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, la pareja se mantiene con esfuerzo entre otras demandas. En lo material, presupuesto ajustado pero funcionando con cuidado.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja que sostiene su vínculo entre presiones externas: trabajo, familia, hijos, salud. La pareja funciona porque ambos hacen el malabar consciente. En lo financiero, las cuentas se cierran ajustadas pero se cierran: pagar todas las facturas, cubrir lo necesario, dejar algo para emergencias. La adaptabilidad es lo que mantiene el equilibrio.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Demasiadas cosas a la vez se vuelven inmanejables. Algo se está soltando sin notarlo.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento donde el malabar excede la capacidad. Las demandas se acumulan y algo empieza a caer: salud, vínculos, deberes, sueño. La sensación de no llegar a todo se vuelve crónica. Reducir la carga, aunque cueste decir que no, es lo que evita el colapso.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, la pareja queda al final de la lista de prioridades. En lo material, las cuentas no cierran y la presión aumenta.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja descuidada por exceso de demandas externas. El otro empieza a sentirse último en la lista, y el resentimiento se acumula sin nombrarse. En lo financiero, los ingresos no alcanzan a cubrir lo que sale: deudas que crecen, gastos imprevistos, ahorros que se gastan en lo cotidiano. Reordenar pide reducir o aumentar, sin seguir igual esperando que mejore.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3207,22 +3249,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_03.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay un trabajo en equipo funcionando. La suma de habilidades produce más que cada parte sola.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe colaboración productiva. Cada parte aporta su habilidad y el resultado supera a lo que podrían hacer separados. Hay reconocimiento mutuo del valor que cada uno trae. La maestría se construye trabajando, sin esperar a tenerla antes de empezar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja que funciona como equipo en lo cotidiano. En lo material, un proyecto colectivo que rinde por la cooperación.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación donde las decisiones grandes se piensan juntas y las tareas se reparten con criterio. La pareja funciona como sociedad, sin dejar de ser afecto. En lo financiero, hay un proyecto, sociedad o trabajo colectivo donde la complementariedad de habilidades produce resultado real. Buscar consejo de quien sabe más vale más que insistir solo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La colaboración no funciona. Hay competencia donde debería haber suma de fuerzas.", en: null },
+        largo: {
+          es: "La carta invertida marca el desencuentro de equipo. Las habilidades chocan en lugar de complementarse, alguien acapara mientras otros se desentienden, o falta el respeto básico para escuchar al que sabe distinto. El proyecto avanza menos de lo que podría. Restablecer la cooperación pide reconocer qué aporta cada parte.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja que no logra repartirse las tareas con justicia. En lo material, conflicto en un proyecto compartido por falta de claridad de roles.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja con tensiones por reparto de cargas: tareas domésticas, decisiones financieras, cuidado de la familia. Lo no negociado explícitamente se distribuye desigual. En lo financiero, hay un proyecto compartido (sociedad, emprendimiento, trabajo) donde los roles no están claros y eso genera fricción. Sentarse a definir quién hace qué destraba lo que la ambigüedad estanca.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3236,22 +3299,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_04.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay una guardia puesta sobre lo que se logró. La protección puede volverse cárcel si se exagera.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe el momento de aferrarse a lo conseguido. Hay miedo a perder lo construido y eso se traduce en control firme sobre los recursos. La estabilidad está bien cuidada y al mismo tiempo puede impedir crecer. La diferencia entre proteger y acaparar es tema de calibración.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona se aferra al vínculo por miedo a perderlo. En lo material, conservadurismo financiero que da seguridad pero limita.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde la posesividad ocupa más espacio que la confianza: celos, control sobre el tiempo del otro, miedo permanente al abandono. La protección excesiva ahoga lo que pretende cuidar. En lo financiero, hay un manejo conservador del dinero: ahorro alto, gasto mínimo, aversión al riesgo. Funciona como base estable y deja poco para crecer o disfrutar.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "O la guardia se afloja y aparece liberación, o la avaricia se vuelve más cerrada.", en: null },
+        largo: {
+          es: "La carta invertida marca dos extremos posibles. Por un lado, hay una persona empezando a soltar el control: aprende a compartir, a confiar, a gastar lo que merece gastar. Por otro, la inseguridad se profundiza en avaricia o en gasto compulsivo descontrolado. La dirección depende del trabajo interno con la propia escasez sentida.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien suelta los celos o, al revés, se vuelve más posesivo. En lo material, generosidad recuperada o gasto descontrolado.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte aprendió a dejar respirar al otro, o, al revés, profundizó el control. La diferencia se nota en si los dos pueden tener vida propia sin ansiedad. En lo financiero, hay momento de revisar la relación con el dinero: empezar a compartir lo que se acumulaba, donar, invertir en uno mismo, o perder el control y gastar sin medida. Reconocer qué emoción mueve la decisión cambia el resultado.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3265,22 +3349,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_05.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay un período de dificultad material o emocional. La sensación de exclusión se hace presente.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe un momento de carencia: económica, afectiva, o de salud. La sensación de estar fuera mientras otros están adentro pesa. La carta invita a notar que la puerta está más cerca de lo que parece. Pedir ayuda es la decisión que más cuesta y más alivia.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, soledad o sensación de estar excluido. En lo material, dificultad económica que aprieta.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona atravesando un período de soledad o de sentirse afuera de lo que otros viven: parejas formándose, familias funcionando, amistades cercanas. La envidia y la tristeza se mezclan. En lo financiero, hay aprietos concretos: ingresos insuficientes, deudas acumuladas, gastos imprevistos. Buscar redes de apoyo (familia, amistades, programas de ayuda) baja el peso del orgullo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El período difícil empieza a aflojar. Hay primeros signos de salida.", en: null },
+        largo: {
+          es: "La carta invertida marca el comienzo de la recuperación. La situación más dura empieza a quedar atrás, sea por ayuda recibida, por decisión propia, o por simple paso del tiempo. La cicatriz queda y la fuerza también. Aceptar lo que se necesitó pedir es parte del aprendizaje.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una conexión nueva o reparada saca de la soledad. En lo material, recuperación financiera después de un período duro.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona saliendo del aislamiento: una nueva amistad, una pareja que aparece, una familia que se reconecta. La capacidad de recibir afecto, después de un tiempo sin, vuelve despacio. En lo financiero, hay recuperación gradual: deudas reduciéndose, ingresos estabilizándose, gastos bajo control. La gratitud por lo que se sobrevivió evita la repetición.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3294,22 +3399,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_06.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay un intercambio equilibrado: dar y recibir circulan sin trabas. La generosidad encuentra su forma justa.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe el momento donde los recursos circulan bien. Quien tiene da lo que puede sin perder, quien necesita recibe sin humillación. El equilibrio entre generosidad y cuidado propio se sostiene. Lo que se comparte vuelve, en general, en alguna forma.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación donde dar y recibir están en proporción justa. En lo material, ayuda mutua que funciona limpiamente.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja o un vínculo cercano donde el cuidado va y vuelve sin contar puntos. La reciprocidad se nota en lo cotidiano. En lo financiero, hay un momento donde la generosidad propia o ajena fluye limpio: prestar a quien devuelve, recibir ayuda sin culpa, donar sin esperar nada. Lo que circula se mantiene en movimiento.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El intercambio se rompió. Alguien da más, otro recibe más, y nadie lo nombra.", en: null },
+        largo: {
+          es: "La carta invertida marca el desbalance crónico en el intercambio. Una parte sostiene económica o emocionalmente a la otra sin reciprocidad real. Las deudas, los favores, las ayudas vienen con condiciones implícitas. La generosidad genuina se distingue de la transacción disfrazada por su ausencia de cobro posterior.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona sostiene materialmente a la otra y eso desbalanza el vínculo. En lo material, deudas o favores con costo emocional oculto.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte aporta significativamente más recursos materiales y eso modifica la dinámica de poder. La gratitud forzada es resentimiento en cámara lenta. En lo financiero, hay préstamos no devueltos, ayudas dadas con expectativa no nombrada, o favores aceptados que después se cobran emocionalmente. Aclarar las condiciones de un acuerdo material protege el vínculo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3323,22 +3449,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_07.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay un momento de esperar y evaluar. Lo plantado todavía está creciendo.", en: null },
+        largo: {
+          es: "La carta describe el período de paciencia entre el esfuerzo y el resultado. Lo trabajado durante meses o años empieza a mostrar señales de avance, sin dar todavía la cosecha completa. La impaciencia es enemiga del proceso. Sostener el cuidado un poco más permite que rinda lo que ya está casi listo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación que crece despacio y vale el tiempo. En lo material, una inversión o proyecto que rinde con paciencia.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo en construcción lenta: amistad que se profundiza con el tiempo, pareja en proceso de afianzar confianza, relación familiar que se repara despacio. La paciencia es la mejor inversión. En lo financiero, hay un trabajo, ahorro o inversión que requiere meses o años para mostrar resultado completo. La consistencia sostenida vence a las apuestas brillantes que no rinden.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "El esfuerzo invertido no rinde lo esperado. Hay aprendizaje sobre dónde poner energía la próxima vez.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca la frustración de no recibir lo proporcional al esfuerzo dado. Algo no rindió: el trabajo, la relación, el proyecto, la inversión. Vale revisar si la causa fue mala elección, mala ejecución, o simplemente mala suerte. Lo aprendido del fracaso vale más que el costo del fracaso si se procesa bien.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación trabajada que no creció lo esperado. En lo material, una inversión que no rindió lo proyectado.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que invirtió tiempo y emoción en un vínculo que no llegó a corresponder al esfuerzo. La decisión es seguir esperando o aceptar que no va a rendir. En lo financiero, hay un proyecto, inversión o trabajo que después de mucho tiempo dio menos de lo planeado. Cortar las pérdidas a tiempo evita perder más, aunque duela admitirlo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3352,22 +3499,40 @@ const DECK = [
     imagen: "assets/images/cards/oros_08.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay foco en mejorar lo que se hace. La habilidad se construye con repetición cuidada.", en: null },
+        largo: {
+          es: "La carta describe la dedicación al oficio. Cada repetición pule un poco más, cada error enseña qué ajustar la próxima. La maestría se construye sin atajos. Lo que se hace con atención sostenida se distingue de lo que se hace por inercia.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien aprende a relacionarse mejor con paciencia. En lo material, dedicación al trabajo que da frutos visibles.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona afinando su capacidad de querer: aprende a comunicar mejor, a escuchar, a poner límites, a ofrecer presencia. La pareja se beneficia del trabajo personal. En lo financiero, hay dedicación profesional que rinde: especialización en un oficio, mejora de habilidades, calidad consistente del trabajo. La reputación construida así genera oportunidades.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "O hay descuido en la calidad o, al revés, perfeccionismo que paraliza.", en: null },
+        largo: {
+          es: "La carta invertida marca dos errores opuestos. Por un lado, descuido: trabajo apurado, sin atención al detalle, hecho para salir del paso. Por otro, perfeccionismo paralizante: nada se entrega porque nada está suficientemente bien. La maestría real vive entre los extremos: cuidado sin parálisis.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien hace los gestos sin atención real. En lo material, trabajo descuidado o perfeccionismo que bloquea entregar.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que cumple los gestos del vínculo sin presencia real: presente físicamente y ausente emocionalmente, atento por inercia más que por interés. El otro lo nota antes de poder nombrarlo. En lo financiero, hay un trabajo donde la calidad bajó por exceso de carga, desgano o desmotivación. La salida pasa por reconectar con por qué se hace lo que se hace.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3381,22 +3546,46 @@ const DECK = [
     imagen: "assets/images/cards/oros_09.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay autosuficiencia ganada con esfuerzo. La libertad concreta es resultado del trabajo invertido.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe la cosecha personal de un largo trabajo. Hay independencia material y emocional, capacidad de disfrutar lo construido sin depender de otros para ser feliz. La libertad acá viene de la autosuficiencia más que del aislamiento. Lo logrado pide ser saboreado antes de pensar en lo siguiente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona completa que elige el vínculo sin necesitarlo para existir. En lo material, prosperidad material disfrutada con conciencia.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que llega al vínculo desde la plenitud propia, sin el vacío que pide ser llenado. La pareja se elige libremente. En lo financiero, hay holgura material concreta: ahorros consolidados, propiedades, recursos suficientes para vivir bien. La gratitud por lo logrado se traduce en disfrute sin culpa.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La autosuficiencia se volvió aislamiento. Hay independencia que pesa más de lo que aporta.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca el lado oscuro de la autonomía. La persona se construyó tan independiente que ya no sabe cómo dejar entrar a otros. La libertad se confundió con soledad, la autosuficiencia con desconfianza generalizada. Recuperar el balance pide aceptar recibir como práctica saludable.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien usa la autonomía como excusa para no comprometerse. En lo material, lujo aparente sostenido por deuda o dependencia oculta.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que prefiere la independencia a profundizar un vínculo, o que usa la frase no necesito a nadie como escudo contra la vulnerabilidad. La elección es legítima si es consciente; si es defensa, conviene mirarla. En lo financiero, hay un nivel de vida que aparenta ser holgura pero se sostiene con tarjetas, préstamos o ayuda no reconocida. Aclarar la situación real es lo que permite ajustar.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3410,22 +3599,46 @@ const DECK = [
     imagen: "assets/images/cards/oros_10.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay solidez material que trasciende lo individual. Lo construido beneficia a más de uno y por más tiempo.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe la prosperidad heredable. Lo que se logró tiene carácter de legado: una casa familiar, un negocio que pasa generaciones, una tradición que sostiene. La satisfacción acá es colectiva más que individual. Lo que se construye con visión de largo plazo deja huella concreta.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una familia funcionando con armonía y proyecto compartido. En lo material, estabilidad consolidada que beneficia a varios.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una vida familiar plena: pareja, hijos, abuelos, círculo cercano funcionando como tejido. El sentido de pertenencia a algo más grande que uno mismo está activo. En lo financiero, hay solidez compartida: casa propia, ahorros para los hijos, plan de jubilación, herencia preparada. Lo construido funciona como red para varias generaciones.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Lo que parecía sólido tiene grietas. La estabilidad familiar o material muestra problemas no resueltos.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca disputas en lo que debería ser refugio. Familia con conflictos por dinero, herencias peleadas, negocios familiares que se rompen. Lo que se construyó como base se vuelve campo de batalla. Reparar requiere separar el afecto de la cuenta, sin negar ninguno.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, conflicto familiar serio por dinero o herencia. En lo material, pérdida de patrimonio o negocio familiar en problemas.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una familia con tensiones serias por la cuestión material: una herencia disputada, un préstamo no devuelto entre hermanos, un negocio compartido que se rompe. Lo afectivo se daña al confundirse con lo financiero. En lo financiero, hay riesgo o pérdida del patrimonio acumulado: deudas que comprometen lo familiar, mala gestión de un negocio que viene generaciones, decisiones impulsivas que dilapidan. Volver a la cabeza fría sobre números es lo que protege.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3439,22 +3652,40 @@ const DECK = [
     imagen: "assets/images/cards/oros_11.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay una etapa de aprendizaje activo. La curiosidad apunta a algo concreto y útil.", en: null },
+        largo: {
+          es: "La carta describe el momento de empezar a estudiar algo en serio. Hay ambición sana de mejorar, de aprender un oficio, de prepararse para algo más grande. La paciencia para sostener el aprendizaje es lo que distingue al que llega del que abandona. Cada paso pequeño cuenta más de lo que parece.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien con disposición de aprender a ser pareja entra en escena. En lo material, una propuesta o noticia material concreta llega.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona joven o nueva en lo emocional, dispuesta a aprender lo que el vínculo requiere: paciencia, compromiso, presencia. La intimidad se construye despacio, con disposición a equivocarse y corregir. En lo financiero, llega una noticia o propuesta concreta: una oferta de trabajo, una oportunidad de estudio remunerado, una pista de inversión. Vale investigarla con cuidado antes de actuar.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El foco se dispersa antes de profundizar. Hay ambición sin sostén.", en: null },
+        largo: {
+          es: "La carta invertida marca la dificultad para mantener la atención en una sola dirección. Cada idea nueva desplaza a la anterior, cada estudio se abandona antes de rendir. La energía está pero falta disciplina. Comprometerse con una sola cosa el tiempo suficiente para que dé fruto es el trabajo pendiente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien que muestra interés y luego desaparece. En lo material, una propuesta entusiasta que después no se concreta.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona en juego que muestra entusiasmo inicial y después se distrae: empieza relaciones y las abandona, hace promesas que olvida, atención que se evapora. La consistencia falta. En lo financiero, una propuesta llega con presentación atractiva y después no se materializa: el trabajo no se concreta, la oferta tenía letra chica, la oportunidad se enfrió. Verificar antes de comprometer protege.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3468,22 +3699,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_12.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay paciencia y consistencia funcionando. El avance es lento y constante, sin aspavientos.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe el trabajo metódico y confiable. La velocidad y el brillo no son la fuerza de esta carta: lo es el cumplimiento sostenido. La rutina bien hecha produce más que el impulso brillante que se apaga rápido. Lo aburrido del compromiso es también su fuerza.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja estable y previsible que cumple lo que promete. En lo material, manejo financiero conservador y consistente.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde la confianza viene de la consistencia: el otro está cuando dice que va a estar, hace lo que dice que va a hacer, sostiene lo cotidiano sin drama. La estabilidad puede leerse como aburrida y sostiene mejor que cualquier intensidad. En lo financiero, hay manejo conservador del dinero: ahorrar de a poco, evitar riesgos, planificar a largo plazo. Lo que crece despacio resiste mejor que lo que crece rápido.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La rutina se volvió encierro. Hay estancamiento donde antes había constancia.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento donde la consistencia se transformó en rigidez. La rutina protege de la incertidumbre y al mismo tiempo bloquea cualquier crecimiento. Hay aburrimiento sin nombrar, falta de chispa, sensación de estar repitiendo sin avanzar. Romper algo del patrón devuelve aire a lo cotidiano.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja se volvió previsible al punto de aburrir. En lo material, trabajo sostenido sin alegría que pesa más que aporta.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja que perdió la chispa por exceso de rutina: las mismas conversaciones, los mismos planes, la misma cama, sin que nada nuevo entre. La estabilidad protege y también puede asfixiar. En lo financiero, hay un trabajo que se sostiene por necesidad pero ya no aporta nada más allá del sueldo: aburrimiento, agotamiento sutil, sensación de pérdida de tiempo. Vale evaluar si conviene cambiar o reactivar lo que está.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -3550,22 +3802,43 @@ const DECK = [
     imagen: "assets/images/cards/oros_14.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay maestría material lograda con esfuerzo. La abundancia se ejerce con responsabilidad y cuidado del entorno.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe la culminación del trabajo material. Hay éxito concreto, generosidad ejercida, capacidad de proteger y proveer al círculo cercano. La autoridad acá viene de haber construido desde abajo. Lo logrado se sostiene porque se entiende cómo se construyó.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona que provee y cuida con responsabilidad. En lo material, prosperidad consolidada y generosidad bien ejercida.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde una parte (o las dos) ofrece base material y emocional sólida: presencia confiable, recursos compartidos sin alardes, decisiones tomadas pensando en lo común. En lo financiero, hay maestría con el dinero: inversiones bien evaluadas, generosidad calibrada con quien la merece, capacidad de hacer rendir lo que se tiene. La reputación construida funciona como capital propio.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La maestría se volvió avaricia o materialismo sin alma. El éxito perdió su sentido.", en: null },
+        largo: {
+          es: "La carta invertida marca el costo de medir todo en lo material. Hay prosperidad que dejó de generar bienestar: lujo sin disfrute, acumulación sin generosidad, éxito sin propósito más allá del éxito. La avaricia o la corrupción aparecen cuando el dinero pasa de ser medio a ser fin. Volver a preguntarse para qué se trabaja es el ajuste necesario.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien usa el dinero para controlar al otro. En lo material, decisiones financieras turbias o avaricia que aleja a la gente.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde uno ejerce poder a través de los recursos: distribuye o retiene dinero según conveniencia, marca jerarquía con la cuenta, genera dependencia material. El cuidado se transforma en manipulación. En lo financiero, hay decisiones donde la ambición pasó por encima de la ética: negocios sucios, acuerdos al límite de lo legal, avaricia que perjudica a otros. Las cuentas con la propia integridad son las que después pesan más.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
