@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Word lockfiles
+~$*.docx
+~$*.doc
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+
+# Node (por si en el futuro)
+node_modules/
+
+# Carpeta de referencias (privada, no va al repo público)
+references/
+
+# Drafts del essay (privados hasta publicar en Substack)
+*.docx
+*.doc
