@@ -19,3 +19,6 @@ references/
 # Drafts del essay (privados hasta publicar en Substack)
 *.docx
 *.doc
+
+# Herramientas de dev locales (parsers de fuentes, scripts auxiliares)
+tools/

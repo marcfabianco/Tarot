@@ -23,6 +23,12 @@ Acompaña a un ensayo en Substack que examina por qué este tipo de lecturas res
 
 🚧 En desarrollo. Plan completo y avance documentado en [tarot-game-plan.md](tarot-game-plan.md).
 
+## Para retomar el proyecto
+
+**Antes de escribir o editar interpretaciones de cartas, leer:**
+
+📖 **[docs/STYLE_GUIDE.md](docs/STYLE_GUIDE.md)** — reglas de escritura para los textos de las cartas. Tono, tiempos gramaticales, qué evitar. El lenguaje drifta sin esta guía.
+
 ## Imágenes de las cartas
 
 Las 78 imágenes en `assets/images/cards/` provienen del **Rider-Waite-Smith Tarot Deck** (Pamela Colman Smith, 1909) — dominio público. Detalles en [ATTRIBUTION.md](assets/images/cards/ATTRIBUTION.md).
