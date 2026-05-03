@@ -1782,22 +1782,46 @@ const DECK = [
     imagen: "assets/images/cards/bastos_01.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Una chispa creativa pide ser convertida en acción. La inspiración llegó y espera respuesta.",
+          en: null
+        },
+        largo: {
+          es: "Hay un impulso nuevo que pide manifestarse. Una idea, un proyecto, una vocación que estaba latente encuentra su momento de salir. La carta nombra el momento donde el deseo se vuelve potencia disponible. Empezar pesa más que esperar a tener todo claro.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pasión se enciende y pide ser expresada. En lo material, una iniciativa o proyecto que vale arrancar.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un encuentro con energía sexual y emocional fuerte: una atracción nueva, un romance que se reaviva, una chispa que cambia la dinámica. Lo material y lo carnal se mezclan sin pudor. En lo financiero, llega una oportunidad concreta: una propuesta de trabajo, una idea de negocio, un proyecto que pide ser empezado. La acción decidida multiplica más que el cálculo prolongado.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La chispa está pero algo la apaga. Hay impulso sin dirección, o ganas que no encuentran cauce.",
+          en: null
+        },
+        largo: {
+          es: "La inspiración existe pero se atasca antes de volverse acción. Hay falta de claridad sobre qué hacer con la energía disponible, o miedo a empezar y fracasar. Las ideas se acumulan sin que ninguna se concrete. Recuperar el impulso pide acción pequeña antes que plan grande.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pasión que arde y se apaga rápido. En lo material, un proyecto entusiasta que pierde fuelle.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una atracción intensa que probablemente no dura: química inmediata sin profundidad para sostener. La emoción del comienzo se confunde con compromiso real. En lo financiero, hay un proyecto o iniciativa que arrancó con fuerza y se quedó sin combustible: ideas sin ejecución, planes sin seguimiento, energía dispersa. Concretar lo que ya está empezado vale más que arrancar lo siguiente.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1811,22 +1835,46 @@ const DECK = [
     imagen: "assets/images/cards/bastos_02.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay un mapa para trazar y la vista alcanza lejos. Las decisiones grandes se vuelven posibles desde acá.",
+          en: null
+        },
+        largo: {
+          es: "Hay un momento de planificación con perspectiva amplia. La carta describe a alguien con poder para decidir su próximo movimiento, viendo el campo entero. Las opciones están disponibles y la elección depende de la propia voluntad. Lo que se planifica con visión clara tiende a concretarse.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una decisión de pareja sobre el rumbo a futuro. En lo material, una estrategia financiera de largo plazo en formación.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja considerando un paso grande: convivencia, mudanza, hijos, casamiento, separación. La conversación pide ser hecha con visión más allá de lo inmediato. En lo financiero, hay decisiones estratégicas en juego: inversión, cambio de carrera, compra grande, plan de jubilación. Las elecciones hechas con buena información cargan menos arrepentimiento.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "El plan se atasca por miedo a comprometerse con una opción. La vista amplia se vuelve parálisis.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca el bloqueo del estratega. Hay tantas opciones disponibles que ninguna termina de ser elegida, o hay miedo a perder lo conocido por algo nuevo. La planificación se vuelve excusa para no actuar. Salir del bucle pide elegir aunque la información sea imperfecta.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una decisión de pareja postergada por miedo. En lo material, una jugada financiera evitada por incertidumbre.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja sabiendo que tiene que decidir un paso grande y postergándolo por meses o años. El miedo a equivocarse cuesta más que la decisión misma. En lo financiero, hay una jugada estratégica posible (inversión, mudanza laboral, emprendimiento) que se aplaza por excesiva precaución. La oportunidad pierde valor con cada semana de demora.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1840,22 +1888,40 @@ const DECK = [
     imagen: "assets/images/cards/bastos_03.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Una expansión está en marcha. Lo plantado empieza a dar resultado.", en: null },
+        largo: {
+          es: "La carta describe el momento donde la inversión inicial empieza a rendir. Hay barcos que vuelven, proyectos que despegan, esfuerzo previo que toma forma. La paciencia por sostener la espera se justifica. Lo que viene es más grande que lo que se esperaba.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación lista para crecer. En lo material, una recompensa por trabajo invertido.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo entrando en una nueva fase: convivencia, hijos, proyecto compartido más grande. La base construida sostiene lo que viene. En lo financiero, lo trabajado durante meses o años empieza a producir: ascenso, retorno de inversión, negocio que estabiliza, oportunidad internacional. La expansión pide aceptar que lo cómodo queda atrás.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La expansión esperada se demora. Los barcos no vuelven en el tiempo previsto.", en: null },
+        largo: {
+          es: "La carta invertida nombra demoras frustrantes. Lo planificado no llega cuando debía, o llega menor de lo esperado. Hay falta de información sobre por qué algo no avanza, lo que aumenta la ansiedad. Mientras se espera, conviene revisar si el plan original aún tiene sentido o requiere ajuste.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una decisión postergada de común acuerdo se demora más. En lo material, retornos esperados que no llegan en el plazo.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja con planes (mudarse, casarse, viajar juntos) que se postergan por circunstancias externas: trabajo, dinero, familia, salud. La espera prueba la solidez del vínculo. En lo financiero, los proyectos lanzados con expectativa no rinden lo prometido en el plazo prometido: la venta no cierra, el cliente no paga, el negocio crece más lento. Sostener pide ajustar expectativas sin abandonar el plan.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1869,22 +1935,43 @@ const DECK = [
     imagen: "assets/images/cards/bastos_04.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Una celebración del logro alcanzado. La estructura construida pide ser reconocida.", en: null },
+        largo: {
+          es: "La carta marca un hito festejado en compañía. Algo construido encuentra su forma estable y permite descansar. Las raíces están puestas, la casa funciona, el grupo cercano está. Esta solidez tiene peso real: funciona como base sobre la cual se construye lo siguiente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una unión celebrada con familia y amigos. En lo material, una estabilidad económica que permite generosidad.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un paso grande que se da con respaldo del entorno: matrimonio, mudanza juntos, fiesta de aniversario, presentación pública de la pareja. El amor se vuelve también acto social. En lo financiero, hay holgura para invertir en seres queridos: regalos, comidas, ayuda concreta a la familia. Compartir lo logrado le da otra dimensión.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La celebración prometida no termina de llegar. Algo de la estructura no está tan firme como parece.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida nombra una dificultad para festejar: o el logro tiene asteriscos, o el grupo cercano no acompaña, o hay tensión en la base que se intenta tapar. La armonía pública oculta fricción privada. Mirar lo que se está evitando permite reparar antes de cerrar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, conflicto familiar cuando se trata de oficializar la pareja. En lo material, gastos de celebración que pesan más que el evento.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja con tensión sobre cuándo o cómo dar el paso público: presentar a la familia, casarse, mudarse juntos. El miedo o la falta de acuerdo pesan más de lo que se nombra. En lo financiero, una celebración (boda, gran evento, fiesta importante) genera más estrés económico que disfrute. Conviene ajustar la escala antes que ceder a expectativas externas.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1898,22 +1985,40 @@ const DECK = [
     imagen: "assets/images/cards/bastos_05.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay fricción en el aire. Cada parte defiende su posición sin escucharse del todo.", en: null },
+        largo: {
+          es: "La carta describe una situación de competencia o conflicto sin un ganador claro todavía. Múltiples fuerzas chocan al mismo tiempo y la energía se gasta en defenderse. El conflicto puede ser productivo si conduce a aclarar diferencias reales. Cuando solo es ruido, agota a todos por igual.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, peleas pequeñas que se acumulan sin gran problema de fondo. En lo material, competencia laboral o disputas por recursos.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay desacuerdos repetidos sobre cosas chicas que tapan algo más grande sin nombrarse. El roce constante desgasta sin avanzar. En lo financiero, hay competencia con otros por un puesto, por un cliente, por un recurso compartido. La rivalidad puede empujar a hacer mejor el trabajo o puede consumir energía que serviría mejor en otra parte.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El conflicto baja de intensidad. Hay cansancio acumulado más que resolución verdadera.", en: null },
+        largo: {
+          es: "La carta invertida marca el final de una pelea, sea por agotamiento o por acuerdo. La energía gastada deja huella. Lo no resuelto queda guardado y puede reaparecer si no se conversa de fondo. La calma exterior puede ser real o solo aparente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pelea sostenida termina por cansancio. En lo material, competencia laboral resuelta sin claridad sobre quién ganó qué.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja saliendo de una racha de discusiones, con tregua pero sin profundización. Lo que generaba el roce sigue ahí debajo. En lo financiero, una competencia laboral o una disputa por recursos termina, pero las relaciones quedan tensas. Reparar los vínculos pesa tanto como ganar la disputa.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1927,22 +2032,43 @@ const DECK = [
     imagen: "assets/images/cards/bastos_06.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El esfuerzo recibe reconocimiento. Lo logrado se vuelve público y celebrado.", en: null },
+        largo: {
+          es: "La carta marca el momento del triunfo visible. Lo trabajado durante tiempo es reconocido por otros, sea con un premio, un cargo, una palabra pública. La confianza en sí mismo se refuerza con esta validación. Vale registrar el momento sin dejar que el reconocimiento defina enteramente el valor propio.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja celebrada por su entorno. En lo material, un logro profesional que recibe visibilidad.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación que recibe reconocimiento público o que se afirma en el entorno: presentación a la familia, anuncio de compromiso, validación social del vínculo. La pareja gana solidez al ser nombrada. En lo financiero, llega un ascenso, un premio, un reconocimiento profesional. El éxito tiene forma de aplauso, y eso vale registrar antes de pasar al siguiente desafío.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "El logro pasa sin reconocimiento. Hay esfuerzo invisible o expectativa frustrada de aprobación.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca el desencuentro entre lo logrado y el reconocimiento esperado. O el éxito no llega, o llega y nadie lo nota. La validación externa se vuelve más importante de lo saludable, generando frustración o resentimiento. La satisfacción interna es la que sostiene cuando la externa falla.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, sensación de no ser valorado por la pareja o el entorno. En lo material, un logro que pasa sin la recompensa esperada.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona en la relación que siente que da más de lo que recibe en reconocimiento. La gratitud que falta se vuelve resentimiento silencioso. En lo financiero, un trabajo bien hecho no recibe el aumento, el ascenso o la mención esperada. Pedir lo que corresponde sirve más que esperar a ser visto.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1956,22 +2082,40 @@ const DECK = [
     imagen: "assets/images/cards/bastos_07.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay que defender la posición lograda. Otros la disputan y la postura propia pesa.", en: null },
+        largo: {
+          es: "La carta describe el momento de aguantar bajo presión. Lo conseguido es atacado, criticado, puesto en duda. Sostener requiere coraje y claridad sobre por qué vale la pena. La defensa válida nace de la convicción más que de la terquedad.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, defender la pareja frente a interferencias externas. En lo material, defender una posición laboral o un proyecto bajo crítica.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja que tiene que sostenerse contra opiniones externas: familia que no acepta, amistades que cuestionan, situaciones que prueban el vínculo. La defensa hecha de a dos refuerza la unión. En lo financiero, hay un proyecto, un puesto o una idea siendo cuestionada por colegas, jefes o competencia. Sostener la posición pide argumentos sólidos y paciencia para repetirlos.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La defensa cansa. El terreno se va perdiendo o se está soltando por agotamiento.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento donde la perseverancia se vuelve obstinación inútil. Defender una posición que ya no merece ser defendida desgasta sin propósito. A veces el cansancio es información: indica que la batalla equivocada se está peleando. Distinguir entre rendirse y soltar lo que ya no aporta es la decisión.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien deja de defender la relación frente a presiones. En lo material, abandono de un proyecto que requería más fuerza para ser defendido.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una de las partes (o las dos) deja de pelear por el vínculo bajo la presión externa o interna. La rendición puede ser madura o prematura, depende del caso. En lo financiero, un proyecto, un puesto o una idea se abandona cuando defenderlos pesaba demasiado. Vale revisar después si la decisión fue de claridad o de agotamiento.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -1985,22 +2129,40 @@ const DECK = [
     imagen: "assets/images/cards/bastos_08.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Las cosas se mueven rápido. Lo que tardaba empieza a avanzar con velocidad sorprendente.", en: null },
+        largo: {
+          es: "La carta marca un momento de aceleración. Decisiones que estaban trabadas se destraban, mensajes que faltaban llegan, oportunidades aparecen casi simultáneamente. Hay que estar listo para responder al ritmo. Lo que se demora en agarrar se pierde rápido también.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, comunicación intensa o un romance que avanza rápido. En lo material, noticias importantes o movimientos financieros veloces.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una conversación que se reactiva, mensajes que vuelven después de silencio, un romance que pasa de cero a cien en pocos días. La velocidad es parte del encanto y del riesgo. En lo financiero, llegan noticias rápido: una oferta de trabajo, una respuesta esperada, un movimiento de mercado. Estar disponible para responder en plazos cortos hace la diferencia.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El movimiento se traba. La comunicación se enreda y los mensajes se cruzan mal.", en: null },
+        largo: {
+          es: "La carta invertida marca el atasco después del momentum. Lo que iba rápido se demora, los mensajes se interpretan mal, las decisiones tomadas con prisa muestran sus errores. Hay sensación de impotencia frente al ritmo perdido. Vale recuperar el aire antes de seguir empujando contra la inercia.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, malentendidos por comunicación apurada. En lo material, decisiones financieras precipitadas que muestran su costo.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja con malentendidos por mensajes mal interpretados, respuestas tardías o conversaciones inconclusas. La velocidad de los chats no compensa la falta de profundidad. En lo financiero, decisiones tomadas con apuro muestran sus huecos: un contrato firmado sin leer entero, una compra precipitada, una respuesta dada antes de pensar. Lo prudente es desacelerar para reparar.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2014,22 +2176,46 @@ const DECK = [
     imagen: "assets/images/cards/bastos_09.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Lo logrado se sostiene a pesar del cansancio. Hay una resistencia probada que aguanta un esfuerzo más.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe a alguien que ha pasado por mucho y aún se mantiene en pie. El cansancio acumulado no apaga la determinación. La carta nombra esa cualidad de sostener cuando otros ya se rindieron. Lo que falta del camino es menos largo de lo que parece.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja que sobrevivió pruebas y se sostiene firme. En lo material, un proyecto que aguantó dificultades y está cerca de rendir.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo que pasó por turbulencia y emerge más sólido. La fidelidad probada vale más que la promesa fácil. En lo financiero, hay un trabajo, negocio o inversión que atravesó dificultades y aún se sostiene cerca de su recompensa. Falta menos camino del que el cansancio sugiere.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La defensa se volvió desconfianza generalizada. Hay agotamiento que se disfraza de cautela.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca el costo emocional de tantas batallas. La persona desconfía hasta de quien ofrece ayuda, levanta muros donde no hace falta, ve amenaza en lo que es solo cercanía. La paranoia o la rigidez se justifican en la propia historia. Bajar la guardia con quien sí merece confianza es el trabajo aquí.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien levantó tantos muros que la cercanía no encuentra cómo entrar. En lo material, defensa exagerada de recursos por miedo a perderlos.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona herida por relaciones anteriores que dificulta dejar entrar a quien podría querer en serio. La cautela que protegía empieza a aislar. En lo financiero, hay una avaricia defensiva: agarrar todo por miedo a la escasez, no compartir por temor a perder, no invertir por miedo a fracasar. La protección excesiva impide el crecimiento que sí está disponible.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2043,22 +2229,40 @@ const DECK = [
     imagen: "assets/images/cards/bastos_10.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay demasiado peso encima. Lo logrado se volvió carga difícil de cargar solo.", en: null },
+        largo: {
+          es: "La carta describe a alguien cargando responsabilidades que excedieron lo manejable. El éxito mismo trajo más obligaciones de las anticipadas. Hay sensación de no poder bajar la guardia ni un momento. Aliviar empieza por reconocer cuánto se está cargando, antes de pedir ayuda o soltar lo que sobra.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona sostiene sola lo que debería ser compartido. En lo material, exceso de responsabilidades laborales o financieras.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde una parte carga emocionalmente con todo: las preocupaciones, las decisiones, el trabajo doméstico, la planificación. El desbalance agota a quien sostiene y hace pasivo a quien no. En lo financiero, hay exceso de responsabilidades materiales: deudas múltiples, varios trabajos, presión por sostener a otros. El bienestar pide redistribuir o reducir antes que aguantar más.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Algo de la carga se suelta. Lo que no era propio empieza a ser devuelto.", en: null },
+        largo: {
+          es: "La carta invertida marca el alivio. Hay una decisión de dejar caer lo que se cargaba sin necesidad: una obligación asumida por compromiso, una culpa heredada, un proyecto que ya no compete. La liviandad recuperada permite ver con más claridad lo que sí toca cargar. La generosidad excesiva deja de ser virtud cuando enferma.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, redistribución de roles o pedido de ayuda concreta. En lo material, alivio financiero por delegar, vender o cerrar lo que pesaba.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una conversación necesaria sobre cómo se reparten cargas en una pareja o familia. Pedir ayuda funciona como redistribución necesaria del peso. En lo financiero, hay decisiones de reducir el peso material: cerrar un negocio que drenaba, vender una propiedad que costaba más mantener que vendiéndola, terminar un compromiso económico que no aporta. Soltar libera energía para lo que sí merece sostenerse.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2072,22 +2276,46 @@ const DECK = [
     imagen: "assets/images/cards/bastos_11.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Una idea o propuesta nueva entra con entusiasmo. Hay ganas de explorar lo que aún no está mapeado.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe una energía juvenil dispuesta a probar. Una idea, un proyecto, una invitación llega con cualidad de aventura. Falta experiencia y sobra entusiasmo. Lo que se intenta aquí, sin garantías, abre caminos que la cautela bloquearía.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien con espíritu libre y curioso entra en escena. En lo material, una propuesta nueva con potencial pero sin trayectoria probada.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un encuentro con cualidad exploratoria: alguien aventurero, juguetón, con energía joven independientemente de su edad. La intensidad inicial puede sostenerse o desinflarse, depende. En lo financiero, llega una propuesta de proyecto, emprendimiento o cambio de rumbo con mucha promesa y poca historia. Vale arriesgar algo, sin apostar todo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "El entusiasmo se dispersa antes de llegar a hacer algo. Hay impaciencia que sabotea su propio interés.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida nombra una energía sin foco. Las ideas se acumulan, los proyectos se empiezan y se abandonan, el entusiasmo se gasta antes de la primera ejecución. Falta paciencia para sostener lo iniciado. Aprender a terminar lo que se empieza es el trabajo pendiente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien que enamora rápido y huye más rápido. En lo material, una propuesta entusiasta sin sustento concreto.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona (puede ser uno mismo) con dificultad para sostener compromiso: enamoramientos breves, abandonos sin explicación, intensidad que se evapora. La paciencia encuentra mejor pareja en otro lado. En lo financiero, una propuesta llega con presentación entusiasta pero sin números, sin plan, sin trayectoria. Antes de comprometer dinero, conviene pedir lo concreto.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2101,22 +2329,43 @@ const DECK = [
     imagen: "assets/images/cards/bastos_12.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay un avance decidido y rápido. La energía pone manos a la obra sin demoras.", en: null },
+        largo: {
+          es: "La carta describe acción decidida con carisma. Alguien (uno mismo o cercano) lanza un proyecto, lidera una iniciativa, pone el cuerpo en lo que cree. La velocidad y la confianza atraen a otros. Lo único que falta es alguien que pondere si hace falta más cálculo antes de avanzar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, un romance pasional o una declaración audaz. En lo material, acción decidida en negocios o proyectos.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una atracción intensa que se traduce en acción rápida: alguien declara, propone, cambia su vida por la otra persona. La pasión se nota. En lo financiero, hay alguien tomando riesgos calculados con energía: un emprendimiento lanzado, un cambio de país, una inversión audaz. La fortuna favorece la acción decidida si la información es razonable.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La acción se vuelve impulso ciego. Hay velocidad sin dirección, o agresividad disfrazada de coraje.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca el costo del impulso sin freno. Decisiones tomadas en caliente que después generan arrepentimiento, palabras dichas en enojo que dañan vínculos, proyectos lanzados sin plan que se estrellan. La energía existe pero falta gobierno propio. Bajar la velocidad, una vez, antes de actuar cambia el resultado.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pasión que arrasa con todo y se va igual de rápido. En lo material, decisiones impulsivas con consecuencias visibles.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona (o uno mismo) que entra en relaciones con intensidad y se va con la misma fuerza, dejando promesas incumplidas. La pasión sin compromiso lastima a los dos. En lo financiero, hay decisiones tomadas sin pensar: una renuncia abrupta, una compra grande sin consultar, un negocio iniciado sin planificación. Reparar el desorden cuesta más tiempo que el ahorrado por actuar rápido.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2130,22 +2379,40 @@ const DECK = [
     imagen: "assets/images/cards/bastos_13.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay carisma y voluntad funcionando juntos. La presencia propia abre puertas sin esfuerzo.", en: null },
+        largo: {
+          es: "La carta describe a alguien con magnetismo natural y propósito claro. La energía propia atrae oportunidades, gente, posibilidades, simplemente por mostrarse como se es. Hay independencia que no necesita aprobación externa. Lo que esta cualidad pide cuidar es no usarse para abrumar a quienes son más callados.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona segura de sí que atrae sin esfuerzo. En lo material, decisiones financieras tomadas con confianza y buen criterio.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde una parte (o las dos) aporta calidez, decisión y carisma. La pareja funciona porque ninguna se anula a la otra. En lo financiero, hay manejo confiado de los recursos: decisiones tomadas con criterio, inversiones evaluadas, oportunidades aprovechadas. La intuición sobre dinero está bien calibrada y vale escucharla.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La confianza se volvió arrogancia. La intensidad propia empieza a quemar a los demás.", en: null },
+        largo: {
+          es: "La carta invertida marca el desbalance entre seguridad y consideración. Hay alguien (uno mismo o cercano) imponiéndose donde debería escuchar, exigiendo donde debería pedir, dominando donde debería compartir. La fuerza personal se está usando para anular a otros. La inseguridad bajo la apariencia de fuerza es la raíz que pide ser mirada.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, celos posesivos o exigencia desmedida. En lo material, decisiones financieras tomadas con orgullo en vez de criterio.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte demanda atención permanente, controla movimientos, marca celos donde no toca. La inseguridad se traduce en posesividad. En lo financiero, hay decisiones materiales tomadas para demostrar (consumo conspicuo, gastos para impresionar) en lugar de para servir el plan real. El reconocimiento externo cuesta caro cuando se compra.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2159,22 +2426,43 @@ const DECK = [
     imagen: "assets/images/cards/bastos_14.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay capacidad de liderar y de hacer realidad la idea propia. La visión se traduce en acción concreta.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe a un líder maduro: alguien que ve hacia dónde ir y sabe cómo movilizar recursos para llegar. La autoridad acá viene de la experiencia probada. Otros se suman porque confían en el rumbo. Lo que pide cuidar es sostener tanto el plan como la ejecución.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja donde una parte sostiene visión de largo plazo. En lo material, una iniciativa empresarial o profesional bien ejecutada.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde alguien aporta dirección y proyecto a largo plazo. La pareja funciona porque hay un horizonte compartido y alguien dispuesto a trabajarlo. En lo financiero, hay un proyecto, negocio o carrera siendo llevado adelante con liderazgo y visión. La autoridad propia se ejerce con responsabilidad. Lo que se construye con esta energía suele perdurar.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El liderazgo se volvió autoritarismo. Hay imposición donde debería haber escucha.", en: null },
+        largo: {
+          es: "La carta invertida marca el abuso de poder. Lo que era visión se transformó en imposición de criterio único, lo que era confianza se volvió arrogancia, lo que era acción se volvió atropello. Otros se alejan, los proyectos pierden gente clave, las decisiones empiezan a tomarse en soledad cada vez más estrecha. Recuperar el balance pide volver a escuchar antes que decidir.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja donde uno impone su agenda sin consultar. En lo material, decisiones empresariales tomadas con arrogancia que costaron oportunidades.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona (o uno mismo) acostumbrada a decidir por dos, marcar el ritmo, definir prioridades sin consultar. La pareja se vuelve subordinación. En lo financiero, hay decisiones de negocio o carrera tomadas con tanta confianza que se ignoraron señales: una sociedad mal evaluada, una expansión sin pruebas, un cambio de rumbo desoyendo asesores. La humildad de revisar lo que no funcionó es la salida.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
