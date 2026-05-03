@@ -23,6 +23,8 @@ Acompaña a un ensayo en Substack que examina por qué este tipo de lecturas res
 
 🚧 En desarrollo. Plan completo y avance documentado en [tarot-game-plan.md](tarot-game-plan.md).
 
+**Hito alcanzado (mayo 2026):** las 624 interpretaciones en español están escritas en [js/deck.js](js/deck.js). Falta construir la lógica del juego (aleatorización, render, UI) y la estética. Inglés queda para v2.
+
 ## Para retomar el proyecto
 
 **Antes de escribir o editar interpretaciones de cartas, leer:**

@@ -31,12 +31,30 @@ Tres principios duros que sobreviven el cambio arquitectónico:
 
 ---
 
+## Estado actual (mayo 2026)
+
+| Pieza | Estado |
+|---|---|
+| Repo + imágenes + plan + style guide | ✅ |
+| `js/deck.js` con 624 textos ES (78 cartas × 8 c/u) | ✅ |
+| Conectores narrativos en español | ⬜ |
+| Helper de acceso JS (`getText`) | ⬜ |
+| `shuffleDeck` + `drawCards` con `crypto.getRandomValues()` | ⬜ |
+| `index.html` mínimo + render funcional | ⬜ |
+| GitHub Pages activado | ⬜ |
+| Estética | ⬜ |
+| Footer + link a Substack | ⬜ |
+| Inglés (v2) | ⬜ |
+
+---
+
 ## Stage 0 — Setup del repo ✅
 
 - [x] Repo en GitHub: https://github.com/marcfabianco/Tarot
-- [x] `.gitignore` (incluye `references/`, drafts `.docx`, archivos del SO)
-- [x] `README.md` stub
+- [x] `.gitignore` (incluye `references/`, drafts `.docx`, archivos del SO, `tools/`)
+- [x] `README.md` que apunta a `docs/STYLE_GUIDE.md`
 - [x] `assets/images/cards/` con las 78 cartas RWS (dominio público) + atribución
+- [x] `docs/STYLE_GUIDE.md` con las reglas de escritura
 - [ ] `index.html` placeholder
 - [ ] Activar GitHub Pages → `https://marcfabianco.github.io/Tarot/`
 
