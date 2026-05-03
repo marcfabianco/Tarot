@@ -2476,22 +2476,43 @@ const DECK = [
     imagen: "assets/images/cards/espadas_01.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Una claridad mental rompe la confusión. Lo que estaba turbio se vuelve nítido.", en: null },
+        largo: {
+          es: "La carta nombra un momento de quiebre intelectual. Una verdad que estaba cubierta sale a la luz, una decisión que pedía ser tomada se vuelve obvia. La mente corta lo accesorio y deja ver lo esencial. Esta lucidez tiene cualidad de filo: pesa, pero abre camino.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una conversación honesta destraba lo que estaba enredado. En lo material, una decisión financiera tomada con cabeza fría.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una conversación necesaria que destraba lo que el silencio enredaba: la verdad dicha bien duele menos que la incertidumbre prolongada. En lo financiero, hay una decisión que pide racionalidad por encima del sentimiento: un préstamo a un familiar, una sociedad con un amigo, una compra grande. La regla acá es escuchar la cabeza antes que el corazón. La claridad ahorra problemas que después cuestan caros.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay confusión mental o palabras que cortaron donde no deberían. La claridad se vuelve agresividad.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida nombra el filo usado mal. Las decisiones tomadas con la cabeza demasiado caliente, las palabras dichas con tono cortante, los argumentos lanzados para herir más que para aclarar. Falta información, o sobra ego en la forma de plantearla. Bajar el ritmo y revisar antes de hablar evita rupturas innecesarias.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pelea verbal donde las palabras hicieron más daño del necesario. En lo material, decisiones tomadas con información incompleta o sesgada.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una discusión donde se dijeron cosas que después cuesta retirar. La razón puede tener razón sin tener tacto. En lo financiero, hay decisiones tomadas sin leer toda la letra: contratos firmados sin entender, acuerdos cerrados sin consultar, números asumidos sin verificar. Volver a revisar lo firmado y aclarar lo dudoso antes de seguir es lo prudente.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2505,22 +2526,43 @@ const DECK = [
     imagen: "assets/images/cards/espadas_02.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Una decisión está bloqueada porque ambas opciones cuestan. Mantener los ojos cerrados ya no es posible.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe una situación de impasse. Dos fuerzas chocan y la persona en el medio elige no elegir, pensando que así evita el costo. La parálisis tiene su propio precio: el tiempo decide por uno cuando uno no decide. Aceptar que cualquier elección implica perder algo es el primer paso para hacerla.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una decisión postergada en pareja por miedo a herir. En lo material, una elección entre dos opciones financieras, ambas con costo.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una decisión que dos personas saben que tienen que tomar y postergan: separarse, comprometerse, mudarse, dejar de mudarse. El silencio cómodo se vuelve cárcel. En lo financiero, hay dos opciones disponibles y elegir una significa renunciar a la otra: un trabajo nuevo o el actual, una compra o el ahorro, una inversión o otra. La indecisión cuesta el costo de oportunidad de las dos.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La venda se cae. La verdad que se evitaba se vuelve visible.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento donde el bloqueo se rompe. Lo que se evitaba mirar se hace ineludible, y la decisión pendiente se concreta. Puede haber tensión al aceptar la realidad después de tanto tiempo en negación. La claridad recuperada permite avanzar, aunque sea hacia un camino incómodo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una verdad sale a la luz y reordena la pareja. En lo material, una decisión financiera bloqueada se concreta.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, lo no dicho se nombra finalmente: una infidelidad reconocida, una decisión de separación o compromiso tomada, una expectativa puesta sobre la mesa. La conversación duele y al mismo tiempo libera. En lo financiero, una decisión postergada se toma: vender la propiedad, aceptar la oferta, terminar la sociedad. Lo que estaba congelado vuelve a moverse.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2534,22 +2576,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_03.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay dolor real, no exagerado. Una herida atraviesa el centro y pide ser sentida.", en: null },
+        largo: {
+          es: "La carta nombra el dolor sin disfraz. Una pérdida, una traición, una verdad dura está atravesando lo emocional. El sufrimiento es legítimo y la carta no pide minimizarlo. Atravesarlo despacio, sin huida, es lo que permite que cure en su tiempo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una traición o ruptura que duele profundo. En lo material, una pérdida económica que llega con peso emocional.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una traición confirmada, una infidelidad, una ruptura inesperada, o el final doloroso de un vínculo importante. El dolor es proporcional a lo que el vínculo significaba. En lo financiero, una pérdida material golpea también lo emocional: un divorcio que parte bienes, un negocio que cae, una expectativa de herencia que no se cumple. Hay que sentir lo que duele antes de tomar las próximas decisiones.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La herida empieza a curar. El dolor sigue ahí pero ya no domina la mirada.", en: null },
+        largo: {
+          es: "La carta invertida marca el comienzo de la cicatrización. La pena baja de intensidad sin desaparecer del todo. Si el duelo se está procesando bien, hay una integración paulatina del aprendizaje. Si se está reprimiendo, lo guardado puede reaparecer en otros vínculos hasta que se dé el espacio para sentirlo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una herida vieja se va integrando. En lo material, recuperación lenta después de una pérdida.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona saliendo de una traición o ruptura, con cicatrices visibles. La capacidad de confiar de nuevo se reconstruye despacio. En lo financiero, una pérdida material pasada empieza a quedar atrás: el divorcio se zanja, las deudas se reordenan, los proyectos vuelven a moverse. Tomar lo aprendido del golpe sirve para no volver a caer en lo mismo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2563,22 +2623,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_04.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay que parar antes de seguir. La pausa es parte del trabajo.", en: null },
+        largo: {
+          es: "La carta describe un retiro necesario. Después de mucho movimiento, el cuerpo y la mente piden silencio. La carta sugiere descanso real, sin continuar con menos intensidad. Lo que se intente hacer sin recuperarse primero saldrá peor de lo que merece.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja necesita espacio individual para volver a encontrarse. En lo material, una pausa estratégica antes de la siguiente jugada.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja que se beneficia de un poco de distancia: vacaciones, fines de semana solos, espacio para procesar individual. La intimidad se renueva al darse aire. En lo financiero, hay un momento donde lo prudente es no hacer nada nuevo: pausar inversiones, no tomar decisiones grandes, dejar que la situación se asiente. La quietud estratégica vale tanto como la acción.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "El descanso no llega aunque hace falta. La inquietud propia bloquea la recuperación.", en: null },
+        largo: {
+          es: "La carta invertida marca la dificultad para parar. Hay urgencia interna de seguir produciendo, decidiendo, moviéndose, aunque el cuerpo y la mente pidan tregua. La inquietud se confunde con productividad. Sin pausa, los errores y el agotamiento se acumulan hasta forzar la pausa de manera más cara.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien empuja al otro sin respetar su necesidad de espacio. En lo material, decisiones tomadas en agotamiento que costaron.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que persigue a otra sin notar que está pidiendo distancia: mensajes constantes, planes impuestos, presencia que no deja respirar. El acoso bien intencionado aleja. En lo financiero, hay decisiones tomadas en exceso de cansancio: contratos firmados sin energía para leer, compras hechas para calmar la ansiedad, inversiones aceptadas sin evaluar. Lo decidido en agotamiento suele cobrarse después.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2592,22 +2670,43 @@ const DECK = [
     imagen: "assets/images/cards/espadas_05.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay una pelea ganada con costo alto. La victoria pesa más por lo que costó que por lo que dio.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe un conflicto donde nadie sale bien. Una persona puede haber tenido razón pero perdió aliados al imponerla. El ego ganó la batalla y perdió el vínculo. Vale revisar si la pelea valía lo que se pagó por ganarla, o si soltar habría sido más sabio.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una discusión ganada que dejó la relación dañada. En lo material, una negociación dura que aisló.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja saliendo de una pelea fuerte donde uno (o los dos) se aferró a tener razón a costa del vínculo. La razón puede ser cierta y aun así no compensar. En lo financiero, hay una negociación o disputa donde se ganó el punto y se perdió la relación: un cliente que ya no vuelve, un socio que se aleja, un colega que recuerda. Considerar si hubo otras maneras de defender la posición es trabajo retroactivo útil.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La pelea baja de intensidad. Hay aprendizaje sobre lo que la disputa costó realmente.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento posterior al conflicto. Hay reconocimiento de los daños colaterales de haber peleado así. La sensación de victoria se va diluyendo y queda la cuenta de lo perdido en el proceso. La salida pasa por reparar lo que se pueda y aprender qué peleas no tomar la próxima vez.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, reconciliación tentativa después de una pelea fuerte. En lo material, recuperación de relaciones laborales dañadas en una disputa.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja intentando recomponer después de una pelea que dejó marcas. La disculpa sincera vale más que el argumento perfecto. En lo financiero, hay reparación de vínculos profesionales o comerciales que sufrieron en una negociación dura: pedir disculpas, ofrecer compensación, recuperar credibilidad despacio. La reputación lleva tiempo de reconstruir y vale invertirlo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2621,22 +2720,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_06.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Un movimiento gradual hacia mejor terreno. La transición no es heroica, es necesaria.", en: null },
+        largo: {
+          es: "La carta describe el paso lento desde una situación difícil hacia algo más calmo. La travesía pide paciencia, sin esperar escapes brillantes. Hay tristeza por lo que se deja atrás y al mismo tiempo claridad sobre la necesidad de hacerlo. El destino aún no se ve del todo, y avanzar pide confiar en el rumbo elegido.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una relación que sale de una crisis o termina con dignidad. En lo material, un cambio de rumbo financiero que mejora la situación.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja superando una etapa difícil con conversación y trabajo, o una despedida hecha con respeto y poco drama. El alivio llega despacio. En lo financiero, hay un cambio que aleja del problema: mudanza por costos, cambio de trabajo por mejor sueldo, cierre de un negocio que drenaba. Lo que viene es mejor que lo que queda atrás, aunque el ajuste tome tiempo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La transición se traba. Algo del pasado retiene cuando ya tocaba avanzar.", en: null },
+        largo: {
+          es: "La carta invertida marca la dificultad para soltar lo que ya no sirve. Hay un movimiento iniciado que se devuelve a la mitad por miedo, nostalgia o costumbre. Lo conocido pesa más que la promesa de mejora. Avanzar pide reconocer qué retiene y soltarlo de a poco, sin negar el costo emocional del cambio.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien vuelve a una relación que ya había decidido dejar. En lo material, un cambio de trabajo o ciudad que se posterga indefinidamente.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona regresando a una relación tóxica que había decidido cerrar, o sosteniendo una pareja que ya emocionalmente terminó. La nostalgia confunde lo que ya estaba claro. En lo financiero, hay una decisión de cambio (mudanza, renuncia, venta) que se pospone por enésima vez. Cada nueva postergación tiene su costo en energía y oportunidad.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2694,22 +2811,43 @@ const DECK = [
     imagen: "assets/images/cards/espadas_08.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay sensación de estar atrapado, pero las amarras son menos sólidas de lo que parecen. La salida existe.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe un encierro donde la persona se ve atada y los nudos están sueltos. La parálisis es más mental que real. El miedo o la idea fija de no tener opciones bloquea ver las opciones que sí están. Salir empieza por mirar el atado con más cuidado.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien se siente atrapado en una relación pensando que no puede irse. En lo material, miedo a cambiar de trabajo o situación financiera.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona en un vínculo que se siente sin salida: cree que no puede irse por dependencia, miedo, costo, o por convencimiento de que no merece otra cosa. La cárcel es real y al mismo tiempo construida. En lo financiero, hay miedo a cambiar de trabajo, a reclamar lo que corresponde, a salir de una situación material que limita. La sensación de no tener opciones suele preceder a la decisión de mirarlas.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Las ataduras se aflojan. Lo que parecía imposible empieza a ser visto como elegible.", en: null },
+        largo: {
+          es: "La carta invertida marca el momento en que la venda se cae. Lo que parecía sin salida muestra puertas que estaban ocultas por el miedo. Hay reconocimiento de la propia agencia: uno no es solo víctima de las circunstancias, también participa de ellas. La libertad recuperada empieza tímida y se afirma con cada movimiento.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien decide salir de un vínculo donde se sentía sin opciones. En lo material, búsqueda activa de cambio después de mucho tiempo de pasividad.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona empezando a ejercer su propia agencia: poner límites, decir no, considerar dejar lo que no nutre. El movimiento puede ser pequeño y aun así marca el cambio. En lo financiero, hay búsqueda concreta de cambio: postular a otros trabajos, preguntar por opciones financieras, hablar con asesores. La parálisis se desarma cuando empieza a haber acción.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2723,22 +2861,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_09.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay angustia sostenida. Los miedos se hacen más grandes en la cabeza que en la realidad.", en: null },
+        largo: {
+          es: "La carta describe la noche del alma: las preocupaciones que no dejan dormir, los pensamientos que vuelven en bucle, el peso emocional que se siente desproporcionado. La mente está amplificando los miedos. La realidad suele ser menos terrible que la versión imaginada. Buscar perspectiva externa ayuda a calibrar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, ansiedad sobre la pareja que crece más por dentro que por fuera. En lo material, miedos financieros que paralizan.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona dando vueltas mentales sobre la pareja: dudas, sospechas, ansiedad sobre lo que el otro siente, escenarios catastróficos imaginados. Compartir el miedo con el otro suele bajar su tamaño. En lo financiero, hay angustia sobre el dinero que no calza con la situación real: ansiedad por cuentas que están bien, miedo a perder lo que no está en riesgo. Una mirada externa al estado real de las cosas devuelve perspectiva.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La angustia empieza a aflojar. Lo temido se mira de cerca y resulta menos grave.", en: null },
+        largo: {
+          es: "La carta invertida marca el amanecer después de la noche larga. Las preocupaciones empiezan a verse en proporción. Hay alivio cuando lo que se temía resulta manejable o, al ser nombrado, pierde fuerza. El descanso recuperado permite pensar con más claridad.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alivio después de una conversación honesta que disipó miedos. En lo material, claridad financiera que desactiva la ansiedad.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona saliendo de un período de inseguridad después de hablar con su pareja: las dudas se aclararon, las sospechas se descartaron, o se confirmó algo que ya se intuía. La verdad libera más que la duda crónica. En lo financiero, mirar de frente la situación devuelve sensación de control: hacer el presupuesto, llamar al banco, hablar con un asesor. La angustia sobre dinero baja cuando hay datos en lugar de fantasías.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2752,22 +2908,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_10.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Algo tocó fondo. Lo difícil ya no puede empeorar más.", en: null },
+        largo: {
+          es: "La carta describe el final doloroso de un ciclo. Algo se terminó de la peor manera, dejando agotamiento y heridas. La consolación posible es que desde acá solo se sube. El final, aunque traumático, libera para que algo nuevo pueda empezar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una ruptura definitiva o una traición que cierra el vínculo. En lo material, una pérdida grande o un fracaso visible.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una relación terminada en condiciones duras: traición, mentira sostenida, ruptura unilateral, abandono. El golpe deja marca y al mismo tiempo cierra capítulo. En lo financiero, hay una pérdida grande o un fracaso público: bancarrota, despido, proyecto colapsado, inversión que se hundió. Reconstruir empieza por aceptar el final sin negarlo.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Algo del fondo empieza a ceder. Hay primeras señales de recuperación.", en: null },
+        largo: {
+          es: "La carta invertida marca el rebote después del golpe. Lo peor ya pasó y queda el trabajo lento de levantarse. La fortaleza encontrada en el proceso suele ser mayor a la que se creía tener. La cicatriz queda y al mismo tiempo es prueba de que se sobrevivió.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, recuperación después de una ruptura traumática. En lo material, reconstrucción después de un colapso financiero.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona reconstruyendo su capacidad de querer después de un golpe duro: terapia, tiempo, vínculos cuidados, espacio para sentir y procesar. La confianza vuelve gradualmente. En lo financiero, hay recuperación después de un fracaso material: nuevo trabajo, deudas reorganizadas, proyectos revisados. Lo aprendido del fondo es lo que evita volver a tocarlo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2781,22 +2955,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_11.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay una mente curiosa lista para investigar. Las preguntas pesan más que las respuestas.", en: null },
+        largo: {
+          es: "La carta describe energía intelectual joven y alerta. Hay ganas de aprender, de comunicar, de probar ideas. La curiosidad abre puertas que la cautela cerraba. Lo que falta es paciencia para sostener un tema antes de saltar al siguiente.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien con cabeza ágil y conversación interesante entra en escena. En lo material, una idea o información nueva que conviene investigar.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un encuentro o vínculo donde el atractivo principal es intelectual: conversaciones largas, debates, ideas compartidas. La intimidad emocional puede tardar más en aparecer. En lo financiero, llega información valiosa: una pista de inversión, un dato que cambia el panorama, una pregunta que conviene hacer antes de decidir. Vale investigar antes de actuar.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La mente está dispersa o las palabras hieren. La inteligencia se usa mal.", en: null },
+        largo: {
+          es: "La carta invertida nombra el costo de la sutileza convertida en cinismo. Comentarios sarcásticos que hieren, chismes que dañan, palabras agudas usadas para humillar. La capacidad verbal está al servicio del ego más que al de la verdad. Reconectar con cuidar a quien escucha cambia el efecto de lo que se dice.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien se vuelve crítico mordaz en lugar de comunicarse de verdad. En lo material, información poco confiable que conviene contrastar.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte usa palabras para herir más que para resolver: ironía, comentarios cortantes, comparaciones humillantes. La tregua verbal es condición para reparar. En lo financiero, hay información que llega con apariencia de dato pero sin verificación: un consejo apresurado, una recomendación interesada, un rumor presentado como hecho. Antes de actuar, vale chequear la fuente.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2810,22 +3002,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_12.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay acción decidida y rápida. La cabeza marca el rumbo y el cuerpo ejecuta sin demora.", en: null },
+        largo: {
+          es: "La carta describe avance frontal con convicción. Las decisiones se toman con claridad mental y se ejecutan sin titubeo. La velocidad es virtud y al mismo tiempo riesgo. Lo que falta a veces es considerar el efecto en otros antes de cortar.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien actúa con decisión sin demasiado romanticismo. En lo material, una jugada audaz y rápida en negocios.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que va al grano: declara, propone, decide, sin alargar la conversación. El estilo puede chocar con quien necesita más tiempo. En lo financiero, hay acción decidida: una negociación llevada con dureza, una inversión hecha sin consultar mucho, un cambio de trabajo aceptado al toque. La velocidad funciona si la información es buena.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La acción se vuelve agresión. Hay imposición disfrazada de eficiencia.", en: null },
+        largo: {
+          es: "La carta invertida marca el costo de la prisa sin filtro. Decisiones tomadas para imponer más que para resolver, palabras dichas para callar al otro, jugadas hechas para demostrar fuerza. La mente cortante actúa como arma más que como herramienta. Bajar el ritmo y considerar quién queda lastimado en el camino cambia el efecto.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, alguien atropella al otro con argumentos en lugar de escucharlo. En lo material, decisiones impulsivas que dañan vínculos profesionales.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte gana las discusiones a costa de la otra: dialéctica afilada usada para anular, sin resolver. La razón puede ser correcta y aun así dañar. En lo financiero, hay decisiones tomadas con dureza que después generan resentimiento: jefes despedidos sin tacto, clientes maltratados, socios atropellados. La eficiencia que pierde gente cuesta caro a largo plazo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2839,22 +3049,40 @@ const DECK = [
     imagen: "assets/images/cards/espadas_13.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "Hay una claridad madura nacida de la experiencia. La mente ve sin filtros.", en: null },
+        largo: {
+          es: "La carta describe a una persona con mente aguda y poco margen para la ingenuidad. Las decisiones se toman con información completa, las relaciones se eligen con cuidado, los errores propios y ajenos se reconocen sin negación. La frialdad aparente cubre una sensibilidad real que aprendió a protegerse. La autonomía es el rasgo distintivo.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona honesta y discernidora elige con cuidado. En lo material, decisiones financieras tomadas con cabeza y experiencia.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde la honestidad pesa más que el romanticismo. La pareja funciona porque hay respeto y conversación clara, sin dramas ni juegos. En lo financiero, hay manejo experto de los recursos: presupuesto claro, criterio para préstamos a otros, diferenciación entre necesidad y deseo. Lo que se decide acá rara vez se arrepiente.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: { es: "La claridad se volvió frialdad o resentimiento. La mente afilada corta donde no toca.", en: null },
+        largo: {
+          es: "La carta invertida marca el costo de la guardia mantenida demasiado tiempo. La sensibilidad se cubrió tanto que ya no encuentra cómo salir. Hay amargura por heridas viejas, juicio severo sobre los demás como protección, distancia que aísla. Volver a permitir vulnerabilidad es el trabajo aquí.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona herida se cierra al cariño que sí está disponible. En lo material, decisiones financieras tomadas con desconfianza generalizada.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una persona que sufrió y ahora trata a cada nueva posibilidad con la sospecha de la anterior. La autoprotección entendible se convirtió en barrera que aleja a quien no merece sospecha. En lo financiero, hay desconfianza extrema: no prestar nunca, no compartir información financiera con la pareja, no invertir por temor. La cautela que protege también puede paralizar.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
@@ -2868,22 +3096,46 @@ const DECK = [
     imagen: "assets/images/cards/espadas_14.jpg",
     derecha: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "Hay autoridad mental basada en principios. Las decisiones se sostienen en lógica y en ética.",
+          en: null
+        },
+        largo: {
+          es: "La carta describe a alguien que combina inteligencia con integridad. La capacidad de analizar se acompaña de la responsabilidad de hacer lo correcto. Otros buscan su consejo porque pesan tanto la cabeza como la palabra. El poder se ejerce con criterio y con templanza.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una pareja donde el respeto y la honestidad mandan. En lo material, decisiones financieras tomadas con principios sólidos.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay un vínculo donde los acuerdos se respetan, la palabra se cumple, los conflictos se resuelven con conversación clara. La pasión convive con la estructura. En lo financiero, hay manejo ético del dinero: contratos transparentes, deudas pagadas, compromisos honrados, asesoría profesional buscada cuando hace falta. La reputación construida así se vuelve activo concreto.",
+          en: null
+        }
       }
     },
     invertida: {
       general: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "La autoridad se volvió manipulación. La inteligencia se usa para imponer más que para esclarecer.",
+          en: null
+        },
+        largo: {
+          es: "La carta invertida marca el abuso del intelecto. La capacidad mental se pone al servicio del propio interés sin consideración por otros, las decisiones se justifican con argumentos brillantes pero injustos, la palabra se quiebra cuando conviene. La frialdad sin ética es destructiva. Recuperar el balance pide volver a los principios antes que a las jugadas.",
+          en: null
+        }
       },
       relacional: {
-        corto: { es: "", en: null },
-        largo: { es: "", en: null }
+        corto: {
+          es: "En lo afectivo, una persona usa su inteligencia para controlar al otro. En lo material, decisiones financieras hechas con cinismo o ilegalidad.",
+          en: null
+        },
+        largo: {
+          es: "Afectivamente, hay una pareja donde una parte manipula con palabras: gaslighting, argumentación tramposa, uso de la lógica para hacer dudar al otro de su propia experiencia. El abuso intelectual es real aunque no deje marcas visibles. En lo financiero, hay decisiones donde se cruzaron líneas éticas: contratos turbios, evasión, aprovechamiento de información privilegiada. Las cuentas pendientes con la propia conciencia se cobran con tiempo.",
+          en: null
+        }
       }
     },
     fuentes_consultadas: ["Waite 1910", "Labyrinthos", "Biddy Tarot"]
