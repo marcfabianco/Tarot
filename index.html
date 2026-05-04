@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarot</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Tarot</h1>
+    <button id="lang-toggle" type="button" aria-label="Toggle language">EN</button>
+  </header>
+
+  <main>
+    <button id="draw-button" type="button">Tirar cartas</button>
+
+    <section id="cards" aria-live="polite">
+      <!-- Renderizado por js/app.js: 3 bloques de carta -->
+    </section>
+
+    <section id="narrative" aria-live="polite">
+      <!-- Renderizado por js/app.js: 3 bloques pasado/presente/futuro -->
+    </section>
+  </main>
+
+  <footer>
+    <p id="disclaimer"></p>
+  </footer>
+
+  <script src="js/deck.js"></script>
+  <script src="js/connectors.js"></script>
+  <script src="js/draw.js"></script>
+  <script src="js/narrative.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

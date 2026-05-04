@@ -14,12 +14,6 @@ function getText(drawn, version, idioma) {
   return drawn.card[drawn.orientacion][drawn.interpretacion][version][idioma];
 }
 
-function _pickRandom(arr) {
-  const a = new Uint32Array(1);
-  crypto.getRandomValues(a);
-  return arr[a[0] % arr.length];
-}
-
 function generarNarrativaCorta(draw, idioma) {
   // Tres oraciones cortas, una por carta, sin conectores.
   return draw.map(d => getText(d, "corto", idioma)).join(" ");
@@ -30,8 +24,17 @@ const _MARCOS = {
   en: { pasado: "In your past.",    presente: "in the present.", futuro: "the future." }
 };
 
-function generarNarrativa(draw, idioma) {
+function elegirConectores() {
+  // Pickea índices una vez por draw. Asume arrays paralelos ES/EN de igual largo.
+  return {
+    pasado_presente: _randomInt(CONECTORES.es.pasado_presente.length),
+    presente_futuro: _randomInt(CONECTORES.es.presente_futuro.length)
+  };
+}
+
+function generarNarrativa(draw, idioma, conIdx) {
   // draw = [cartaPasado, cartaPresente, cartaFuturo]
+  // conIdx = { pasado_presente: int, presente_futuro: int } o undefined.
   // Devuelve array de 3 bloques: { posicion, conector, marco, largo }.
   // - posicion: "pasado" | "presente" | "futuro"
   // - conector: null para pasado; string para presente y futuro.
@@ -40,6 +43,7 @@ function generarNarrativa(draw, idioma) {
   if (draw.length !== 3) {
     throw new Error("generarNarrativa needs exactly 3 cards");
   }
+  if (!conIdx) conIdx = elegirConectores();
   const [a, b, c] = draw;
   const m = _MARCOS[idioma];
   return [
@@ -51,13 +55,13 @@ function generarNarrativa(draw, idioma) {
     },
     {
       posicion: "presente",
-      conector: _pickRandom(CONECTORES[idioma].pasado_presente),
+      conector: CONECTORES[idioma].pasado_presente[conIdx.pasado_presente],
       marco: m.presente,
       largo: getText(b, "largo", idioma)
     },
     {
       posicion: "futuro",
-      conector: _pickRandom(CONECTORES[idioma].presente_futuro),
+      conector: CONECTORES[idioma].presente_futuro[conIdx.presente_futuro],
       marco: m.futuro,
       largo: getText(c, "largo", idioma)
     }
