@@ -1,0 +1,113 @@
+/* css/style.css — Layout mínimo. Pase estético todavía pendiente. */
+
+body {
+  font-family: Georgia, serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#lang-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#lang-buttons button {
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  border: 1px solid #999;
+  background: #fff;
+}
+
+#lang-buttons button.active {
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}
+
+#draw-button {
+  display: block;
+  margin: 0 auto 2rem;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Tres cartas en fila: pasado | presente | futuro */
+#cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card-block {
+  text-align: center;
+}
+
+.card-block h2 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  margin: 0 0 0.75rem;
+  color: #666;
+}
+
+.card-block img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+.card-name {
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+
+.card-corto {
+  font-size: 0.9rem;
+  margin: 0;
+  text-align: left;
+}
+
+/* Narrativa larga: bloques apilados verticalmente */
+#narrative {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.narr-block {
+  margin-bottom: 1.75rem;
+}
+
+.narr-block h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 0.5rem;
+  color: #555;
+}
+
+.narr-block p {
+  margin: 0;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+}

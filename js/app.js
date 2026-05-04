@@ -18,7 +18,6 @@ const LABELS = {
   es: {
     drawButton:    "Tirar cartas",
     drawAgain:     "Tirar otra vez",
-    langToggle:    "EN",
     posiciones:    ["Pasado", "Presente", "Futuro"],
     invertida:     " (invertida)",
     disclaimer:    "Una pieza de Marcos Fabián. Lee el ensayo →"
@@ -26,7 +25,6 @@ const LABELS = {
   en: {
     drawButton:    "Draw cards",
     drawAgain:     "Draw again",
-    langToggle:    "ES",
     posiciones:    ["Past", "Present", "Future"],
     invertida:     " (reversed)",
     disclaimer:    "A piece by Marcos Fabián. Read the essay →"
@@ -99,9 +97,11 @@ function renderNarrative() {
 function applyLabels() {
   const L = LABELS[STATE.idioma];
   $("draw-button").textContent = STATE.draw ? L.drawAgain : L.drawButton;
-  $("lang-toggle").textContent = L.langToggle;
   $("disclaimer").textContent = L.disclaimer;
   document.documentElement.lang = STATE.idioma;
+  // Marcar el botón de idioma activo.
+  $("lang-es").classList.toggle("active", STATE.idioma === "es");
+  $("lang-en").classList.toggle("active", STATE.idioma === "en");
 }
 
 function handleDraw() {
@@ -112,8 +112,9 @@ function handleDraw() {
   renderNarrative();
 }
 
-function handleLangToggle() {
-  STATE.idioma = STATE.idioma === "es" ? "en" : "es";
+function setIdioma(idioma) {
+  if (STATE.idioma === idioma) return;
+  STATE.idioma = idioma;
   applyLabels();
   renderCards();
   renderNarrative();
@@ -121,6 +122,7 @@ function handleLangToggle() {
 
 document.addEventListener("DOMContentLoaded", () => {
   $("draw-button").addEventListener("click", handleDraw);
-  $("lang-toggle").addEventListener("click", handleLangToggle);
+  $("lang-es").addEventListener("click", () => setIdioma("es"));
+  $("lang-en").addEventListener("click", () => setIdioma("en"));
   applyLabels();
 });
