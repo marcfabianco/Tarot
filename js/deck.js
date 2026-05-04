@@ -193,7 +193,7 @@ const DECK = [
         },
         largo: {
           es: "Afectivamente, hay un vínculo que sostiene más por presencia que por intensidad. La maternidad de gestos pequeños construye más que un solo gran gesto. En lo financiero, hay holgura para ser generoso con quien lo necesita sin que eso te desbalancee. La abundancia se mantiene cuando circula.",
-          en: "In close ties, a bond that holds through presence more than through intensity. The motherhood of small gestures builds more than a single grand one. Financially, there is room to be generous with those who need it without losing balance. Abundance keeps itself by circulating."
+          en: "In close ties, a bond that holds through presence more than through intensity. The mothering quality of small gestures builds more than a single grand one. Financially, there is room to be generous with those who need it without losing balance. Abundance keeps itself by circulating."
         }
       }
     },
@@ -215,7 +215,7 @@ const DECK = [
         },
         largo: {
           es: "Afectivamente, alguien (puede ser uno mismo) está cuidando con tanta cercanía que sofoca. El cariño bien intencionado puede convertirse en jaula sin notarlo. En lo financiero, hay una dependencia material que está creando desbalance: ayuda dada que no se devuelve, o ayuda recibida que pesa demasiado. Lo justo necesita salir a la luz sin culpas pero sin cortinas.",
-          en: "Emotionally, someone (it could be yourself) is caring so closely that it smothers. Well-meant affection can turn into a cage without notice. Financially, a material dependence is creating imbalance: help given that does not come back, or help received that weighs too much. What is fair needs to come into the open without guilt but without curtains."
+          en: "Emotionally, someone (it could be yourself) is caring so closely that it smothers. Well-meant affection can turn into a cage without notice. Financially, a material dependence is creating imbalance: help given that does not come back, or help received that weighs too much. What is fair needs to come into the open without guilt and without veiling."
         }
       }
     },
@@ -2812,7 +2812,7 @@ const DECK = [
         },
         largo: {
           es: "Afectivamente, hay una persona saliendo de una traición o ruptura, con cicatrices visibles. La capacidad de confiar de nuevo se reconstruye despacio. En lo financiero, una pérdida material pasada empieza a quedar atrás: el divorcio se zanja, las deudas se reordenan, los proyectos vuelven a moverse. Tomar lo aprendido del golpe sirve para no volver a caer en lo mismo.",
-          en: "Emotionally, there is a person coming out of a betrayal or breakup, with visible scars. The capacity to trust again rebuilds slowly. Financially, a past material loss begins to be left behind: the divorce gets settled, the debts get reordered, the projects move again. Taking what was learned from the blow serves to avoid falling into the same again."
+          en: "Emotionally, there is a person coming out of a betrayal or breakup, with visible scars. The capacity to trust again rebuilds slowly. Financially, a past material loss begins to be left behind: the divorce gets settled, the debts get reordered, the projects move again. Taking what was learned from the blow helps you avoid falling into the same again."
         }
       }
     },
@@ -4027,7 +4027,7 @@ const DECK = [
       relacional: {
         corto: {
           es: "En lo afectivo, una pareja se volvió previsible al punto de aburrir. En lo material, trabajo sostenido sin alegría que pesa más que aporta.",
-          en: "In love, a couple has become predictable to the point of boring. Materially, sustained work without joy that weighs more than it gives."
+          en: "In love, a couple has become predictable to the point of dullness. Materially, sustained work without joy that weighs more than it gives."
         },
         largo: {
           es: "Afectivamente, hay una pareja que perdió la chispa por exceso de rutina: las mismas conversaciones, los mismos planes, la misma cama, sin que nada nuevo entre. La estabilidad protege y también puede asfixiar. En lo financiero, hay un trabajo que se sostiene por necesidad pero ya no aporta nada más allá del sueldo: aburrimiento, agotamiento sutil, sensación de pérdida de tiempo. Vale evaluar si conviene cambiar o reactivar lo que está.",
