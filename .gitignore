@@ -1,6 +1,11 @@
 # macOS
 .DS_Store
 
+# R session
+.Rhistory
+.RData
+.Rproj.user/
+
 # Word lockfiles
 ~$*.docx
 ~$*.doc
