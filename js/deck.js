@@ -1928,21 +1928,21 @@ const DECK = [
       general: {
         corto: {
           es: "Una chispa creativa pide ser convertida en acción. La inspiración llegó y espera respuesta.",
-          en: null
+          en: "A creative spark is asking to be turned into action. Inspiration has arrived and is waiting for an answer."
         },
         largo: {
           es: "Hay un impulso nuevo que pide manifestarse. Una idea, un proyecto, una vocación que estaba latente encuentra su momento de salir. La carta nombra el momento donde el deseo se vuelve potencia disponible. Empezar pesa más que esperar a tener todo claro.",
-          en: null
+          en: "There is a new impulse asking to manifest. An idea, a project, a calling that was latent finds its moment to come out. The card names the moment where desire becomes available power. Starting weighs more than waiting to have everything clear."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pasión se enciende y pide ser expresada. En lo material, una iniciativa o proyecto que vale arrancar.",
-          en: null
+          en: "In love, a passion ignites and asks to be expressed. Materially, an initiative or project worth starting."
         },
         largo: {
           es: "Afectivamente, hay un encuentro con energía sexual y emocional fuerte: una atracción nueva, un romance que se reaviva, una chispa que cambia la dinámica. Lo material y lo carnal se mezclan sin pudor. En lo financiero, llega una oportunidad concreta: una propuesta de trabajo, una idea de negocio, un proyecto que pide ser empezado. La acción decidida multiplica más que el cálculo prolongado.",
-          en: null
+          en: "Emotionally, there is an encounter with strong sexual and emotional energy: a new attraction, a romance reigniting, a spark that shifts the dynamic. The material and the carnal mix without shame. Financially, a concrete opportunity arrives: a job proposal, a business idea, a project asking to be started. Decided action multiplies more than prolonged calculation."
         }
       }
     },
@@ -1950,21 +1950,21 @@ const DECK = [
       general: {
         corto: {
           es: "La chispa está pero algo la apaga. Hay impulso sin dirección, o ganas que no encuentran cauce.",
-          en: null
+          en: "The spark is there but something dampens it. There is impulse without direction, or willingness that finds no channel."
         },
         largo: {
           es: "La inspiración existe pero se atasca antes de volverse acción. Hay falta de claridad sobre qué hacer con la energía disponible, o miedo a empezar y fracasar. Las ideas se acumulan sin que ninguna se concrete. Recuperar el impulso pide acción pequeña antes que plan grande.",
-          en: null
+          en: "Inspiration exists but jams before becoming action. There is a lack of clarity about what to do with the available energy, or a fear of starting and failing. Ideas accumulate without any taking shape. Recovering the impulse asks for small action before big plan."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pasión que arde y se apaga rápido. En lo material, un proyecto entusiasta que pierde fuelle.",
-          en: null
+          en: "In love, a passion that burns and goes out fast. Materially, an enthusiastic project that runs out of fuel."
         },
         largo: {
           es: "Afectivamente, hay una atracción intensa que probablemente no dura: química inmediata sin profundidad para sostener. La emoción del comienzo se confunde con compromiso real. En lo financiero, hay un proyecto o iniciativa que arrancó con fuerza y se quedó sin combustible: ideas sin ejecución, planes sin seguimiento, energía dispersa. Concretar lo que ya está empezado vale más que arrancar lo siguiente.",
-          en: null
+          en: "Emotionally, there is an intense attraction that probably will not last: immediate chemistry without depth to hold it. The emotion of the beginning gets confused with real commitment. Financially, there is a project or initiative that started with force and ran out of fuel: ideas without execution, plans without follow-through, scattered energy. Bringing what is already started to completion is worth more than launching the next thing."
         }
       }
     },
@@ -1981,21 +1981,21 @@ const DECK = [
       general: {
         corto: {
           es: "Hay un mapa para trazar y la vista alcanza lejos. Las decisiones grandes se vuelven posibles desde acá.",
-          en: null
+          en: "There is a map to draw and the view reaches far. Big decisions become possible from here."
         },
         largo: {
           es: "Hay un momento de planificación con perspectiva amplia. La carta describe a alguien con poder para decidir su próximo movimiento, viendo el campo entero. Las opciones están disponibles y la elección depende de la propia voluntad. Lo que se planifica con visión clara tiende a concretarse.",
-          en: null
+          en: "There is a moment of planning with broad perspective. The card describes someone with the power to decide their next move, seeing the whole field. The options are available and the choice depends on your own will. What is planned with clear vision tends to take shape."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una decisión de pareja sobre el rumbo a futuro. En lo material, una estrategia financiera de largo plazo en formación.",
-          en: null
+          en: "In love, a couple's decision about the path ahead. Materially, a long-term financial strategy taking form."
         },
         largo: {
           es: "Afectivamente, hay una pareja considerando un paso grande: convivencia, mudanza, hijos, casamiento, separación. La conversación pide ser hecha con visión más allá de lo inmediato. En lo financiero, hay decisiones estratégicas en juego: inversión, cambio de carrera, compra grande, plan de jubilación. Las elecciones hechas con buena información cargan menos arrepentimiento.",
-          en: null
+          en: "Emotionally, there is a couple considering a big step: living together, moving, children, marriage, separation. The conversation asks to be held with vision beyond the immediate. Financially, there are strategic decisions at stake: investment, career change, major purchase, retirement plan. Choices made with good information carry less regret."
         }
       }
     },
@@ -2003,21 +2003,21 @@ const DECK = [
       general: {
         corto: {
           es: "El plan se atasca por miedo a comprometerse con una opción. La vista amplia se vuelve parálisis.",
-          en: null
+          en: "The plan jams from fear of committing to one option. The broad view becomes paralysis."
         },
         largo: {
           es: "La carta invertida marca el bloqueo del estratega. Hay tantas opciones disponibles que ninguna termina de ser elegida, o hay miedo a perder lo conocido por algo nuevo. La planificación se vuelve excusa para no actuar. Salir del bucle pide elegir aunque la información sea imperfecta.",
-          en: null
+          en: "Reversed, the card marks the strategist's block. There are so many options available that none gets chosen, or there is fear of losing the familiar for something new. Planning becomes an excuse not to act. Stepping out of the loop asks for choosing even when the information is imperfect."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una decisión de pareja postergada por miedo. En lo material, una jugada financiera evitada por incertidumbre.",
-          en: null
+          en: "In love, a couple's decision postponed out of fear. Materially, a financial play avoided out of uncertainty."
         },
         largo: {
           es: "Afectivamente, hay una pareja sabiendo que tiene que decidir un paso grande y postergándolo por meses o años. El miedo a equivocarse cuesta más que la decisión misma. En lo financiero, hay una jugada estratégica posible (inversión, mudanza laboral, emprendimiento) que se aplaza por excesiva precaución. La oportunidad pierde valor con cada semana de demora.",
-          en: null
+          en: "Emotionally, there is a couple knowing they have to decide a big step and postponing it for months or years. The fear of getting it wrong costs more than the decision itself. Financially, there is a possible strategic play (an investment, a job move, a venture) postponed through excess caution. The opportunity loses value with every week of delay."
         }
       }
     },
@@ -2032,39 +2032,45 @@ const DECK = [
     imagen: "assets/images/cards/bastos_03.jpg",
     derecha: {
       general: {
-        corto: { es: "Una expansión está en marcha. Lo plantado empieza a dar resultado.", en: null },
+        corto: {
+          es: "Una expansión está en marcha. Lo plantado empieza a dar resultado.",
+          en: "An expansion is underway. What was planted begins to yield."
+        },
         largo: {
           es: "La carta describe el momento donde la inversión inicial empieza a rendir. Hay barcos que vuelven, proyectos que despegan, esfuerzo previo que toma forma. La paciencia por sostener la espera se justifica. Lo que viene es más grande que lo que se esperaba.",
-          en: null
+          en: "The card describes the moment where the initial investment begins to pay off. Ships are coming back, projects take off, prior effort takes form. The patience to sustain the wait is justified. What is coming is bigger than what was expected."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una relación lista para crecer. En lo material, una recompensa por trabajo invertido.",
-          en: null
+          en: "In love, a relationship ready to grow. Materially, a reward for invested work."
         },
         largo: {
           es: "Afectivamente, hay un vínculo entrando en una nueva fase: convivencia, hijos, proyecto compartido más grande. La base construida sostiene lo que viene. En lo financiero, lo trabajado durante meses o años empieza a producir: ascenso, retorno de inversión, negocio que estabiliza, oportunidad internacional. La expansión pide aceptar que lo cómodo queda atrás.",
-          en: null
+          en: "Emotionally, there is a bond entering a new phase: living together, children, a larger shared project. The built base sustains what comes. Financially, what was worked on for months or years begins to produce: a promotion, a return on investment, a business stabilizing, an international opportunity. The expansion asks for accepting that the comfortable is left behind."
         }
       }
     },
     invertida: {
       general: {
-        corto: { es: "La expansión esperada se demora. Los barcos no vuelven en el tiempo previsto.", en: null },
+        corto: {
+          es: "La expansión esperada se demora. Los barcos no vuelven en el tiempo previsto.",
+          en: "The expected expansion is delayed. The ships do not return on the planned schedule."
+        },
         largo: {
           es: "La carta invertida nombra demoras frustrantes. Lo planificado no llega cuando debía, o llega menor de lo esperado. Hay falta de información sobre por qué algo no avanza, lo que aumenta la ansiedad. Mientras se espera, conviene revisar si el plan original aún tiene sentido o requiere ajuste.",
-          en: null
+          en: "Reversed, the card names frustrating delays. What was planned does not arrive when it should, or arrives smaller than expected. There is a lack of information about why something is not advancing, which increases anxiety. While waiting, it is worth reviewing whether the original plan still makes sense or requires adjustment."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una decisión postergada de común acuerdo se demora más. En lo material, retornos esperados que no llegan en el plazo.",
-          en: null
+          en: "In love, a postponed decision by mutual agreement is delayed further. Materially, expected returns that do not arrive on time."
         },
         largo: {
           es: "Afectivamente, hay una pareja con planes (mudarse, casarse, viajar juntos) que se postergan por circunstancias externas: trabajo, dinero, familia, salud. La espera prueba la solidez del vínculo. En lo financiero, los proyectos lanzados con expectativa no rinden lo prometido en el plazo prometido: la venta no cierra, el cliente no paga, el negocio crece más lento. Sostener pide ajustar expectativas sin abandonar el plan.",
-          en: null
+          en: "Emotionally, there is a couple with plans (moving, marrying, traveling together) postponed by outer circumstances: work, money, family, health. The wait tests the solidity of the bond. Financially, projects launched with expectation do not yield what was promised on the promised schedule: the sale does not close, the client does not pay, the business grows slower. Sustaining asks for adjusting expectations without abandoning the plan."
         }
       }
     },
@@ -2079,20 +2085,23 @@ const DECK = [
     imagen: "assets/images/cards/bastos_04.jpg",
     derecha: {
       general: {
-        corto: { es: "Una celebración del logro alcanzado. La estructura construida pide ser reconocida.", en: null },
+        corto: {
+          es: "Una celebración del logro alcanzado. La estructura construida pide ser reconocida.",
+          en: "A celebration of the achievement reached. The structure built asks to be recognized."
+        },
         largo: {
           es: "La carta marca un hito festejado en compañía. Algo construido encuentra su forma estable y permite descansar. Las raíces están puestas, la casa funciona, el grupo cercano está. Esta solidez tiene peso real: funciona como base sobre la cual se construye lo siguiente.",
-          en: null
+          en: "The card marks a milestone celebrated in company. Something built finds its stable form and allows rest. The roots are set, the house works, the close group is present. This solidity has real weight: it works as ground on which to build what comes next."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una unión celebrada con familia y amigos. En lo material, una estabilidad económica que permite generosidad.",
-          en: null
+          en: "In love, a union celebrated with family and friends. Materially, an economic stability that allows generosity."
         },
         largo: {
           es: "Afectivamente, hay un paso grande que se da con respaldo del entorno: matrimonio, mudanza juntos, fiesta de aniversario, presentación pública de la pareja. El amor se vuelve también acto social. En lo financiero, hay holgura para invertir en seres queridos: regalos, comidas, ayuda concreta a la familia. Compartir lo logrado le da otra dimensión.",
-          en: null
+          en: "Emotionally, there is a big step taken with the surrounding circle in support: marriage, moving in together, an anniversary party, the public presentation of the couple. Love also becomes a social act. Financially, there is room to invest in loved ones: gifts, meals, concrete help to the family. Sharing what was achieved gives it another dimension."
         }
       }
     },
@@ -2100,21 +2109,21 @@ const DECK = [
       general: {
         corto: {
           es: "La celebración prometida no termina de llegar. Algo de la estructura no está tan firme como parece.",
-          en: null
+          en: "The promised celebration does not quite arrive. Something in the structure is not as firm as it looks."
         },
         largo: {
           es: "La carta invertida nombra una dificultad para festejar: o el logro tiene asteriscos, o el grupo cercano no acompaña, o hay tensión en la base que se intenta tapar. La armonía pública oculta fricción privada. Mirar lo que se está evitando permite reparar antes de cerrar.",
-          en: null
+          en: "Reversed, the card names a difficulty in celebrating: either the achievement has asterisks, or the close group does not accompany, or there is tension at the base that is being papered over. The public harmony hides private friction. Looking at what is being avoided allows repairing before closing."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, conflicto familiar cuando se trata de oficializar la pareja. En lo material, gastos de celebración que pesan más que el evento.",
-          en: null
+          en: "In love, family conflict around making the relationship official. Materially, celebration expenses that weigh more than the event."
         },
         largo: {
           es: "Afectivamente, hay una pareja con tensión sobre cuándo o cómo dar el paso público: presentar a la familia, casarse, mudarse juntos. El miedo o la falta de acuerdo pesan más de lo que se nombra. En lo financiero, una celebración (boda, gran evento, fiesta importante) genera más estrés económico que disfrute. Conviene ajustar la escala antes que ceder a expectativas externas.",
-          en: null
+          en: "Emotionally, there is a couple with tension about when or how to take the public step: introducing the family, marrying, moving in together. The fear or lack of agreement weighs more than what gets named. Financially, a celebration (a wedding, a major event, an important party) produces more economic stress than enjoyment. It is worth adjusting the scale before yielding to outside expectations."
         }
       }
     },
@@ -2182,20 +2191,23 @@ const DECK = [
     imagen: "assets/images/cards/bastos_06.jpg",
     derecha: {
       general: {
-        corto: { es: "El esfuerzo recibe reconocimiento. Lo logrado se vuelve público y celebrado.", en: null },
+        corto: {
+          es: "El esfuerzo recibe reconocimiento. Lo logrado se vuelve público y celebrado.",
+          en: "Effort receives recognition. What was achieved becomes public and celebrated."
+        },
         largo: {
           es: "La carta marca el momento del triunfo visible. Lo trabajado durante tiempo es reconocido por otros, sea con un premio, un cargo, una palabra pública. La confianza en sí mismo se refuerza con esta validación. Vale registrar el momento sin dejar que el reconocimiento defina enteramente el valor propio.",
-          en: null
+          en: "The card marks the moment of visible triumph. What was worked on for time is recognized by others, whether with a prize, a position, a public word. Self-confidence reinforces with this validation. It is worth registering the moment without letting recognition define your own worth entirely."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pareja celebrada por su entorno. En lo material, un logro profesional que recibe visibilidad.",
-          en: null
+          en: "In love, a couple celebrated by the surrounding circle. Materially, a professional achievement that receives visibility."
         },
         largo: {
           es: "Afectivamente, hay una relación que recibe reconocimiento público o que se afirma en el entorno: presentación a la familia, anuncio de compromiso, validación social del vínculo. La pareja gana solidez al ser nombrada. En lo financiero, llega un ascenso, un premio, un reconocimiento profesional. El éxito tiene forma de aplauso, y eso vale registrar antes de pasar al siguiente desafío.",
-          en: null
+          en: "Emotionally, there is a relationship receiving public recognition or affirming itself in the environment: presentation to the family, announcement of engagement, social validation of the bond. The couple gains solidity by being named. Financially, a promotion arrives, an award, a professional recognition. Success has the shape of applause, and that is worth registering before moving on to the next challenge."
         }
       }
     },
@@ -2203,21 +2215,21 @@ const DECK = [
       general: {
         corto: {
           es: "El logro pasa sin reconocimiento. Hay esfuerzo invisible o expectativa frustrada de aprobación.",
-          en: null
+          en: "The achievement passes without recognition. There is invisible effort or frustrated expectation of approval."
         },
         largo: {
           es: "La carta invertida marca el desencuentro entre lo logrado y el reconocimiento esperado. O el éxito no llega, o llega y nadie lo nota. La validación externa se vuelve más importante de lo saludable, generando frustración o resentimiento. La satisfacción interna es la que sostiene cuando la externa falla.",
-          en: null
+          en: "Reversed, the card marks the mismatch between what was achieved and the expected recognition. Either success does not arrive, or it arrives and no one notices. External validation becomes more important than is healthy, producing frustration or resentment. Inner satisfaction is what sustains when the outer fails."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, sensación de no ser valorado por la pareja o el entorno. En lo material, un logro que pasa sin la recompensa esperada.",
-          en: null
+          en: "In love, a sense of not being valued by the partner or the surroundings. Materially, an achievement that passes without the expected reward."
         },
         largo: {
           es: "Afectivamente, hay una persona en la relación que siente que da más de lo que recibe en reconocimiento. La gratitud que falta se vuelve resentimiento silencioso. En lo financiero, un trabajo bien hecho no recibe el aumento, el ascenso o la mención esperada. Pedir lo que corresponde sirve más que esperar a ser visto.",
-          en: null
+          en: "Emotionally, there is a person in the relationship who feels they give more than they receive in recognition. The gratitude that is missing turns into silent resentment. Financially, a job well done does not receive the raise, the promotion, or the mention expected. Asking for what corresponds serves better than waiting to be seen."
         }
       }
     },
@@ -2232,39 +2244,45 @@ const DECK = [
     imagen: "assets/images/cards/bastos_07.jpg",
     derecha: {
       general: {
-        corto: { es: "Hay que defender la posición lograda. Otros la disputan y la postura propia pesa.", en: null },
+        corto: {
+          es: "Hay que defender la posición lograda. Otros la disputan y la postura propia pesa.",
+          en: "The position achieved has to be defended. Others contest it and your own stance weighs."
+        },
         largo: {
           es: "La carta describe el momento de aguantar bajo presión. Lo conseguido es atacado, criticado, puesto en duda. Sostener requiere coraje y claridad sobre por qué vale la pena. La defensa válida nace de la convicción más que de la terquedad.",
-          en: null
+          en: "The card describes the moment of holding under pressure. What was achieved is attacked, criticized, called into question. Sustaining requires courage and clarity about why it is worth it. Valid defense is born of conviction more than of stubbornness."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, defender la pareja frente a interferencias externas. En lo material, defender una posición laboral o un proyecto bajo crítica.",
-          en: null
+          en: "In love, defending the couple against outside interference. Materially, defending a job position or project under criticism."
         },
         largo: {
           es: "Afectivamente, hay una pareja que tiene que sostenerse contra opiniones externas: familia que no acepta, amistades que cuestionan, situaciones que prueban el vínculo. La defensa hecha de a dos refuerza la unión. En lo financiero, hay un proyecto, un puesto o una idea siendo cuestionada por colegas, jefes o competencia. Sostener la posición pide argumentos sólidos y paciencia para repetirlos.",
-          en: null
+          en: "Emotionally, there is a couple having to hold against outside opinions: family that does not accept, friends who question, situations that test the bond. Defense done as two reinforces the union. Financially, there is a project, a position, or an idea being questioned by colleagues, bosses, or competition. Sustaining the position asks for solid arguments and patience to repeat them."
         }
       }
     },
     invertida: {
       general: {
-        corto: { es: "La defensa cansa. El terreno se va perdiendo o se está soltando por agotamiento.", en: null },
+        corto: {
+          es: "La defensa cansa. El terreno se va perdiendo o se está soltando por agotamiento.",
+          en: "The defense tires. The ground is being lost or released through exhaustion."
+        },
         largo: {
           es: "La carta invertida marca el momento donde la perseverancia se vuelve obstinación inútil. Defender una posición que ya no merece ser defendida desgasta sin propósito. A veces el cansancio es información: indica que la batalla equivocada se está peleando. Distinguir entre rendirse y soltar lo que ya no aporta es la decisión.",
-          en: null
+          en: "Reversed, the card marks the moment where perseverance turns into useless stubbornness. Defending a position that no longer merits defense drains without purpose. Sometimes the fatigue is information: it indicates that the wrong battle is being fought. Distinguishing between giving up and releasing what no longer serves is the decision."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, alguien deja de defender la relación frente a presiones. En lo material, abandono de un proyecto que requería más fuerza para ser defendido.",
-          en: null
+          en: "In love, someone stops defending the relationship against pressure. Materially, the abandoning of a project that required more force to be defended."
         },
         largo: {
           es: "Afectivamente, hay una pareja donde una de las partes (o las dos) deja de pelear por el vínculo bajo la presión externa o interna. La rendición puede ser madura o prematura, depende del caso. En lo financiero, un proyecto, un puesto o una idea se abandona cuando defenderlos pesaba demasiado. Vale revisar después si la decisión fue de claridad o de agotamiento.",
-          en: null
+          en: "Emotionally, there is a couple where one (or both) sides stop fighting for the bond under outside or inner pressure. The surrender may be mature or premature, depending on the case. Financially, a project, a position, or an idea is abandoned when defending them weighed too much. It is worth reviewing afterward whether the decision came from clarity or from exhaustion."
         }
       }
     },
@@ -2279,39 +2297,45 @@ const DECK = [
     imagen: "assets/images/cards/bastos_08.jpg",
     derecha: {
       general: {
-        corto: { es: "Las cosas se mueven rápido. Lo que tardaba empieza a avanzar con velocidad sorprendente.", en: null },
+        corto: {
+          es: "Las cosas se mueven rápido. Lo que tardaba empieza a avanzar con velocidad sorprendente.",
+          en: "Things move fast. What was lagging begins to advance with surprising speed."
+        },
         largo: {
           es: "La carta marca un momento de aceleración. Decisiones que estaban trabadas se destraban, mensajes que faltaban llegan, oportunidades aparecen casi simultáneamente. Hay que estar listo para responder al ritmo. Lo que se demora en agarrar se pierde rápido también.",
-          en: null
+          en: "The card marks a moment of acceleration. Decisions that were stuck come unstuck, messages that were missing arrive, opportunities appear almost simultaneously. Being ready to respond at the pace matters. What takes too long to grab is lost just as quickly."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, comunicación intensa o un romance que avanza rápido. En lo material, noticias importantes o movimientos financieros veloces.",
-          en: null
+          en: "In love, intense communication or a romance moving fast. Materially, important news or rapid financial moves."
         },
         largo: {
           es: "Afectivamente, hay una conversación que se reactiva, mensajes que vuelven después de silencio, un romance que pasa de cero a cien en pocos días. La velocidad es parte del encanto y del riesgo. En lo financiero, llegan noticias rápido: una oferta de trabajo, una respuesta esperada, un movimiento de mercado. Estar disponible para responder en plazos cortos hace la diferencia.",
-          en: null
+          en: "Emotionally, there is a conversation reactivating, messages returning after silence, a romance going from zero to a hundred in a few days. The speed is part of the charm and of the risk. Financially, news arrives fast: a job offer, an awaited response, a market move. Being available to respond in short windows makes the difference."
         }
       }
     },
     invertida: {
       general: {
-        corto: { es: "El movimiento se traba. La comunicación se enreda y los mensajes se cruzan mal.", en: null },
+        corto: {
+          es: "El movimiento se traba. La comunicación se enreda y los mensajes se cruzan mal.",
+          en: "The movement jams. Communication tangles and messages cross badly."
+        },
         largo: {
           es: "La carta invertida marca el atasco después del momentum. Lo que iba rápido se demora, los mensajes se interpretan mal, las decisiones tomadas con prisa muestran sus errores. Hay sensación de impotencia frente al ritmo perdido. Vale recuperar el aire antes de seguir empujando contra la inercia.",
-          en: null
+          en: "Reversed, the card marks the jam after the momentum. What was going fast slows down, messages get misinterpreted, decisions made in haste show their errors. There is a sense of helplessness in front of the lost rhythm. It is worth catching breath before continuing to push against the inertia."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, malentendidos por comunicación apurada. En lo material, decisiones financieras precipitadas que muestran su costo.",
-          en: null
+          en: "In love, misunderstandings from rushed communication. Materially, hasty financial decisions showing their cost."
         },
         largo: {
           es: "Afectivamente, hay una pareja con malentendidos por mensajes mal interpretados, respuestas tardías o conversaciones inconclusas. La velocidad de los chats no compensa la falta de profundidad. En lo financiero, decisiones tomadas con apuro muestran sus huecos: un contrato firmado sin leer entero, una compra precipitada, una respuesta dada antes de pensar. Lo prudente es desacelerar para reparar.",
-          en: null
+          en: "Emotionally, there is a couple with misunderstandings from misread messages, late responses, or unfinished conversations. The speed of chat does not compensate for the lack of depth. Financially, decisions made in haste show their gaps: a contract signed without being read in full, a rushed purchase, a response given before thinking. The prudent move is slowing down to repair."
         }
       }
     },
@@ -2328,21 +2352,21 @@ const DECK = [
       general: {
         corto: {
           es: "Lo logrado se sostiene a pesar del cansancio. Hay una resistencia probada que aguanta un esfuerzo más.",
-          en: null
+          en: "What was achieved holds despite the fatigue. There is a tested resilience that endures one more effort."
         },
         largo: {
           es: "La carta describe a alguien que ha pasado por mucho y aún se mantiene en pie. El cansancio acumulado no apaga la determinación. La carta nombra esa cualidad de sostener cuando otros ya se rindieron. Lo que falta del camino es menos largo de lo que parece.",
-          en: null
+          en: "The card describes someone who has been through much and is still standing. The accumulated fatigue does not put out determination. The card names that quality of holding when others have already given up. What remains of the road is shorter than it seems."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pareja que sobrevivió pruebas y se sostiene firme. En lo material, un proyecto que aguantó dificultades y está cerca de rendir.",
-          en: null
+          en: "In love, a couple that survived trials and holds firm. Materially, a project that endured difficulties and is close to paying off."
         },
         largo: {
           es: "Afectivamente, hay un vínculo que pasó por turbulencia y emerge más sólido. La fidelidad probada vale más que la promesa fácil. En lo financiero, hay un trabajo, negocio o inversión que atravesó dificultades y aún se sostiene cerca de su recompensa. Falta menos camino del que el cansancio sugiere.",
-          en: null
+          en: "Emotionally, there is a bond that passed through turbulence and emerges more solid. Tested fidelity weighs more than the easy promise. Financially, there is a job, business, or investment that crossed difficulties and still holds, close to its reward. There is less road left than the fatigue suggests."
         }
       }
     },
@@ -2350,21 +2374,21 @@ const DECK = [
       general: {
         corto: {
           es: "La defensa se volvió desconfianza generalizada. Hay agotamiento que se disfraza de cautela.",
-          en: null
+          en: "Defense has turned into generalized distrust. There is exhaustion disguised as caution."
         },
         largo: {
           es: "La carta invertida marca el costo emocional de tantas batallas. La persona desconfía hasta de quien ofrece ayuda, levanta muros donde no hace falta, ve amenaza en lo que es solo cercanía. La paranoia o la rigidez se justifican en la propia historia. Bajar la guardia con quien sí merece confianza es el trabajo aquí.",
-          en: null
+          en: "Reversed, the card marks the emotional cost of so many battles. The person distrusts even those offering help, raises walls where none are needed, sees threat in what is only closeness. Paranoia or rigidity is justified in your own history. Lowering the guard with those who do deserve trust is the work here."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, alguien levantó tantos muros que la cercanía no encuentra cómo entrar. En lo material, defensa exagerada de recursos por miedo a perderlos.",
-          en: null
+          en: "In love, someone has raised so many walls that closeness cannot find a way in. Materially, exaggerated defense of resources out of fear of losing them."
         },
         largo: {
           es: "Afectivamente, hay una persona herida por relaciones anteriores que dificulta dejar entrar a quien podría querer en serio. La cautela que protegía empieza a aislar. En lo financiero, hay una avaricia defensiva: agarrar todo por miedo a la escasez, no compartir por temor a perder, no invertir por miedo a fracasar. La protección excesiva impide el crecimiento que sí está disponible.",
-          en: null
+          en: "Emotionally, there is a person wounded by earlier relationships who finds it hard to let in someone who could love in earnest. The caution that protected begins to isolate. Financially, there is a defensive avarice: grabbing everything out of fear of scarcity, not sharing out of fear of losing, not investing out of fear of failing. Excessive protection prevents the growth that is available."
         }
       }
     },
@@ -2379,39 +2403,45 @@ const DECK = [
     imagen: "assets/images/cards/bastos_10.jpg",
     derecha: {
       general: {
-        corto: { es: "Hay demasiado peso encima. Lo logrado se volvió carga difícil de cargar solo.", en: null },
+        corto: {
+          es: "Hay demasiado peso encima. Lo logrado se volvió carga difícil de cargar solo.",
+          en: "There is too much weight on top. What was achieved has become a load hard to carry alone."
+        },
         largo: {
           es: "La carta describe a alguien cargando responsabilidades que excedieron lo manejable. El éxito mismo trajo más obligaciones de las anticipadas. Hay sensación de no poder bajar la guardia ni un momento. Aliviar empieza por reconocer cuánto se está cargando, antes de pedir ayuda o soltar lo que sobra.",
-          en: null
+          en: "The card describes someone carrying responsibilities that have exceeded the manageable. Success itself brought more obligations than anticipated. There is a sense of not being able to lower the guard for a moment. Relief begins by recognizing how much is being carried, before asking for help or releasing what is excess."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una persona sostiene sola lo que debería ser compartido. En lo material, exceso de responsabilidades laborales o financieras.",
-          en: null
+          en: "In love, a person sustains alone what should be shared. Materially, excess of work or financial responsibilities."
         },
         largo: {
           es: "Afectivamente, hay un vínculo donde una parte carga emocionalmente con todo: las preocupaciones, las decisiones, el trabajo doméstico, la planificación. El desbalance agota a quien sostiene y hace pasivo a quien no. En lo financiero, hay exceso de responsabilidades materiales: deudas múltiples, varios trabajos, presión por sostener a otros. El bienestar pide redistribuir o reducir antes que aguantar más.",
-          en: null
+          en: "Emotionally, there is a bond where one side emotionally carries everything: the worries, the decisions, the housework, the planning. The imbalance exhausts the one who sustains and makes passive the one who does not. Financially, there is an excess of material responsibilities: multiple debts, several jobs, pressure to support others. Well-being asks for redistributing or reducing rather than enduring more."
         }
       }
     },
     invertida: {
       general: {
-        corto: { es: "Algo de la carga se suelta. Lo que no era propio empieza a ser devuelto.", en: null },
+        corto: {
+          es: "Algo de la carga se suelta. Lo que no era propio empieza a ser devuelto.",
+          en: "Some of the load is released. What was not yours begins to be given back."
+        },
         largo: {
           es: "La carta invertida marca el alivio. Hay una decisión de dejar caer lo que se cargaba sin necesidad: una obligación asumida por compromiso, una culpa heredada, un proyecto que ya no compete. La liviandad recuperada permite ver con más claridad lo que sí toca cargar. La generosidad excesiva deja de ser virtud cuando enferma.",
-          en: null
+          en: "Reversed, the card marks the relief. There is a decision to let drop what was being carried unnecessarily: an obligation taken on out of commitment, an inherited guilt, a project that no longer concerns you. Lightness recovered allows seeing more clearly what does need to be carried. Excessive generosity stops being a virtue when it makes you sick."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, redistribución de roles o pedido de ayuda concreta. En lo material, alivio financiero por delegar, vender o cerrar lo que pesaba.",
-          en: null
+          en: "In love, redistribution of roles or a concrete request for help. Materially, financial relief through delegating, selling, or closing what was weighing."
         },
         largo: {
           es: "Afectivamente, hay una conversación necesaria sobre cómo se reparten cargas en una pareja o familia. Pedir ayuda funciona como redistribución necesaria del peso. En lo financiero, hay decisiones de reducir el peso material: cerrar un negocio que drenaba, vender una propiedad que costaba más mantener que vendiéndola, terminar un compromiso económico que no aporta. Soltar libera energía para lo que sí merece sostenerse.",
-          en: null
+          en: "Emotionally, there is a necessary conversation about how loads get divided in a couple or family. Asking for help works as a necessary redistribution of weight. Financially, there are decisions to reduce the material load: closing a business that was draining, selling a property that cost more to keep than to sell, ending an economic commitment that does not contribute. Letting go releases energy for what does deserve to be sustained."
         }
       }
     },
@@ -2428,21 +2458,21 @@ const DECK = [
       general: {
         corto: {
           es: "Una idea o propuesta nueva entra con entusiasmo. Hay ganas de explorar lo que aún no está mapeado.",
-          en: null
+          en: "A new idea or proposal enters with enthusiasm. There is desire to explore what is not yet mapped."
         },
         largo: {
           es: "La carta describe una energía juvenil dispuesta a probar. Una idea, un proyecto, una invitación llega con cualidad de aventura. Falta experiencia y sobra entusiasmo. Lo que se intenta aquí, sin garantías, abre caminos que la cautela bloquearía.",
-          en: null
+          en: "The card describes a youthful energy ready to try. An idea, a project, an invitation arrives with the quality of adventure. Experience is missing and enthusiasm overflows. What gets attempted here, without guarantees, opens paths that caution would block."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, alguien con espíritu libre y curioso entra en escena. En lo material, una propuesta nueva con potencial pero sin trayectoria probada.",
-          en: null
+          en: "In close ties, someone with a free and curious spirit enters the scene. Materially, a new proposal with potential but without a proven track record."
         },
         largo: {
           es: "Afectivamente, hay un encuentro con cualidad exploratoria: alguien aventurero, juguetón, con energía joven independientemente de su edad. La intensidad inicial puede sostenerse o desinflarse, depende. En lo financiero, llega una propuesta de proyecto, emprendimiento o cambio de rumbo con mucha promesa y poca historia. Vale arriesgar algo, sin apostar todo.",
-          en: null
+          en: "Emotionally, there is an encounter with an exploratory quality: someone adventurous, playful, with youthful energy regardless of their age. The initial intensity may sustain itself or deflate, depending. Financially, a project proposal, a venture, or a change of course arrives with much promise and little history. It is worth risking something, without betting everything."
         }
       }
     },
@@ -2450,21 +2480,21 @@ const DECK = [
       general: {
         corto: {
           es: "El entusiasmo se dispersa antes de llegar a hacer algo. Hay impaciencia que sabotea su propio interés.",
-          en: null
+          en: "The enthusiasm scatters before getting anything done. There is impatience sabotaging its own interest."
         },
         largo: {
           es: "La carta invertida nombra una energía sin foco. Las ideas se acumulan, los proyectos se empiezan y se abandonan, el entusiasmo se gasta antes de la primera ejecución. Falta paciencia para sostener lo iniciado. Aprender a terminar lo que se empieza es el trabajo pendiente.",
-          en: null
+          en: "Reversed, the card names an unfocused energy. Ideas accumulate, projects get started and abandoned, enthusiasm gets spent before the first execution. Patience to sustain what was begun is missing. Learning to finish what is begun is the pending work."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, alguien que enamora rápido y huye más rápido. En lo material, una propuesta entusiasta sin sustento concreto.",
-          en: null
+          en: "In love, someone who falls in love fast and flees faster. Materially, an enthusiastic proposal without concrete support."
         },
         largo: {
           es: "Afectivamente, hay una persona (puede ser uno mismo) con dificultad para sostener compromiso: enamoramientos breves, abandonos sin explicación, intensidad que se evapora. La paciencia encuentra mejor pareja en otro lado. En lo financiero, una propuesta llega con presentación entusiasta pero sin números, sin plan, sin trayectoria. Antes de comprometer dinero, conviene pedir lo concreto.",
-          en: null
+          en: "Emotionally, there is a person (it could be yourself) with difficulty in sustaining commitment: brief infatuations, unexplained disappearances, intensity that evaporates. Patience finds a better partner elsewhere. Financially, a proposal arrives with enthusiastic presentation but without numbers, without a plan, without a track record. Before committing money, it is worth asking for the concrete."
         }
       }
     },
@@ -2479,20 +2509,23 @@ const DECK = [
     imagen: "assets/images/cards/bastos_12.jpg",
     derecha: {
       general: {
-        corto: { es: "Hay un avance decidido y rápido. La energía pone manos a la obra sin demoras.", en: null },
+        corto: {
+          es: "Hay un avance decidido y rápido. La energía pone manos a la obra sin demoras.",
+          en: "There is a decided and fast advance. Energy gets to work without delay."
+        },
         largo: {
           es: "La carta describe acción decidida con carisma. Alguien (uno mismo o cercano) lanza un proyecto, lidera una iniciativa, pone el cuerpo en lo que cree. La velocidad y la confianza atraen a otros. Lo único que falta es alguien que pondere si hace falta más cálculo antes de avanzar.",
-          en: null
+          en: "The card describes decided action with charisma. Someone (yourself or someone close) launches a project, leads an initiative, puts the body into what they believe. Speed and confidence attract others. The only thing missing is someone who weighs whether more calculation is needed before moving forward."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, un romance pasional o una declaración audaz. En lo material, acción decidida en negocios o proyectos.",
-          en: null
+          en: "In love, a passionate romance or a daring declaration. Materially, decided action in business or projects."
         },
         largo: {
           es: "Afectivamente, hay una atracción intensa que se traduce en acción rápida: alguien declara, propone, cambia su vida por la otra persona. La pasión se nota. En lo financiero, hay alguien tomando riesgos calculados con energía: un emprendimiento lanzado, un cambio de país, una inversión audaz. La fortuna favorece la acción decidida si la información es razonable.",
-          en: null
+          en: "Emotionally, there is an intense attraction that translates into rapid action: someone declares, proposes, changes their life for the other person. Passion shows. Financially, there is someone taking calculated risks with energy: a venture launched, a move abroad, a daring investment. Fortune favors decided action when the information is reasonable."
         }
       }
     },
@@ -2500,21 +2533,21 @@ const DECK = [
       general: {
         corto: {
           es: "La acción se vuelve impulso ciego. Hay velocidad sin dirección, o agresividad disfrazada de coraje.",
-          en: null
+          en: "Action becomes blind impulse. There is speed without direction, or aggression disguised as courage."
         },
         largo: {
           es: "La carta invertida marca el costo del impulso sin freno. Decisiones tomadas en caliente que después generan arrepentimiento, palabras dichas en enojo que dañan vínculos, proyectos lanzados sin plan que se estrellan. La energía existe pero falta gobierno propio. Bajar la velocidad, una vez, antes de actuar cambia el resultado.",
-          en: null
+          en: "Reversed, the card marks the cost of unbraked impulse. Decisions made hot that later breed regret, words said in anger that damage bonds, projects launched without a plan that crash. The energy exists but self-governance is missing. Slowing down once before acting changes the outcome."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pasión que arrasa con todo y se va igual de rápido. En lo material, decisiones impulsivas con consecuencias visibles.",
-          en: null
+          en: "In love, a passion that sweeps through everything and leaves just as fast. Materially, impulsive decisions with visible consequences."
         },
         largo: {
           es: "Afectivamente, hay una persona (o uno mismo) que entra en relaciones con intensidad y se va con la misma fuerza, dejando promesas incumplidas. La pasión sin compromiso lastima a los dos. En lo financiero, hay decisiones tomadas sin pensar: una renuncia abrupta, una compra grande sin consultar, un negocio iniciado sin planificación. Reparar el desorden cuesta más tiempo que el ahorrado por actuar rápido.",
-          en: null
+          en: "Emotionally, there is a person (or yourself) who enters relationships with intensity and leaves with the same force, leaving broken promises. Passion without commitment hurts both. Financially, there are decisions made without thinking: an abrupt resignation, a big purchase without consulting, a business started without planning. Repairing the disorder costs more time than was saved by acting quickly."
         }
       }
     },
@@ -2529,39 +2562,45 @@ const DECK = [
     imagen: "assets/images/cards/bastos_13.jpg",
     derecha: {
       general: {
-        corto: { es: "Hay carisma y voluntad funcionando juntos. La presencia propia abre puertas sin esfuerzo.", en: null },
+        corto: {
+          es: "Hay carisma y voluntad funcionando juntos. La presencia propia abre puertas sin esfuerzo.",
+          en: "Charisma and will work together. Your own presence opens doors without effort."
+        },
         largo: {
           es: "La carta describe a alguien con magnetismo natural y propósito claro. La energía propia atrae oportunidades, gente, posibilidades, simplemente por mostrarse como se es. Hay independencia que no necesita aprobación externa. Lo que esta cualidad pide cuidar es no usarse para abrumar a quienes son más callados.",
-          en: null
+          en: "The card describes someone with natural magnetism and clear purpose. Your own energy attracts opportunities, people, possibilities, simply by showing up as you are. There is an independence that does not need outside approval. What this quality asks for in return is not using itself to overwhelm those who are quieter."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una persona segura de sí que atrae sin esfuerzo. En lo material, decisiones financieras tomadas con confianza y buen criterio.",
-          en: null
+          en: "In love, a self-assured person who attracts without effort. Materially, financial decisions made with confidence and good judgment."
         },
         largo: {
           es: "Afectivamente, hay un vínculo donde una parte (o las dos) aporta calidez, decisión y carisma. La pareja funciona porque ninguna se anula a la otra. En lo financiero, hay manejo confiado de los recursos: decisiones tomadas con criterio, inversiones evaluadas, oportunidades aprovechadas. La intuición sobre dinero está bien calibrada y vale escucharla.",
-          en: null
+          en: "Emotionally, there is a bond where one side (or both) brings warmth, decisiveness, and charisma. The pair works because neither cancels the other. Financially, there is confident handling of resources: decisions made with judgment, investments evaluated, opportunities taken. Intuition about money is well calibrated and worth listening to."
         }
       }
     },
     invertida: {
       general: {
-        corto: { es: "La confianza se volvió arrogancia. La intensidad propia empieza a quemar a los demás.", en: null },
+        corto: {
+          es: "La confianza se volvió arrogancia. La intensidad propia empieza a quemar a los demás.",
+          en: "Confidence has turned to arrogance. Your own intensity begins to burn others."
+        },
         largo: {
           es: "La carta invertida marca el desbalance entre seguridad y consideración. Hay alguien (uno mismo o cercano) imponiéndose donde debería escuchar, exigiendo donde debería pedir, dominando donde debería compartir. La fuerza personal se está usando para anular a otros. La inseguridad bajo la apariencia de fuerza es la raíz que pide ser mirada.",
-          en: null
+          en: "Reversed, the card marks the imbalance between confidence and consideration. There is someone (yourself or someone close) imposing where they should listen, demanding where they should ask, dominating where they should share. Personal strength is being used to cancel others. The insecurity beneath the appearance of strength is the root that asks to be looked at."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, celos posesivos o exigencia desmedida. En lo material, decisiones financieras tomadas con orgullo en vez de criterio.",
-          en: null
+          en: "In love, possessive jealousy or excessive demand. Materially, financial decisions made out of pride rather than judgment."
         },
         largo: {
           es: "Afectivamente, hay una pareja donde una parte demanda atención permanente, controla movimientos, marca celos donde no toca. La inseguridad se traduce en posesividad. En lo financiero, hay decisiones materiales tomadas para demostrar (consumo conspicuo, gastos para impresionar) en lugar de para servir el plan real. El reconocimiento externo cuesta caro cuando se compra.",
-          en: null
+          en: "Emotionally, there is a couple where one side demands permanent attention, controls movements, marks jealousy where there is no place for it. Insecurity translates into possessiveness. Financially, there are material decisions made to demonstrate (conspicuous consumption, spending to impress) rather than to serve the real plan. External recognition is expensive when bought."
         }
       }
     },
@@ -2578,40 +2617,43 @@ const DECK = [
       general: {
         corto: {
           es: "Hay capacidad de liderar y de hacer realidad la idea propia. La visión se traduce en acción concreta.",
-          en: null
+          en: "There is capacity to lead and to bring your own idea into reality. Vision translates into concrete action."
         },
         largo: {
           es: "La carta describe a un líder maduro: alguien que ve hacia dónde ir y sabe cómo movilizar recursos para llegar. La autoridad acá viene de la experiencia probada. Otros se suman porque confían en el rumbo. Lo que pide cuidar es sostener tanto el plan como la ejecución.",
-          en: null
+          en: "The card describes a mature leader: someone who sees where to go and knows how to mobilize resources to get there. The authority here comes from tested experience. Others join because they trust the course. What it asks for in return is sustaining both the plan and the execution."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pareja donde una parte sostiene visión de largo plazo. En lo material, una iniciativa empresarial o profesional bien ejecutada.",
-          en: null
+          en: "In love, a couple where one side carries long-term vision. Materially, an entrepreneurial or professional initiative well executed."
         },
         largo: {
           es: "Afectivamente, hay un vínculo donde alguien aporta dirección y proyecto a largo plazo. La pareja funciona porque hay un horizonte compartido y alguien dispuesto a trabajarlo. En lo financiero, hay un proyecto, negocio o carrera siendo llevado adelante con liderazgo y visión. La autoridad propia se ejerce con responsabilidad. Lo que se construye con esta energía suele perdurar.",
-          en: null
+          en: "Emotionally, there is a bond where someone brings direction and long-term project. The couple works because there is a shared horizon and someone willing to work it. Financially, there is a project, business, or career being carried forward with leadership and vision. Your own authority is exercised with responsibility. What is built with this energy tends to last."
         }
       }
     },
     invertida: {
       general: {
-        corto: { es: "El liderazgo se volvió autoritarismo. Hay imposición donde debería haber escucha.", en: null },
+        corto: {
+          es: "El liderazgo se volvió autoritarismo. Hay imposición donde debería haber escucha.",
+          en: "Leadership has turned to authoritarianism. There is imposition where there should be listening."
+        },
         largo: {
           es: "La carta invertida marca el abuso de poder. Lo que era visión se transformó en imposición de criterio único, lo que era confianza se volvió arrogancia, lo que era acción se volvió atropello. Otros se alejan, los proyectos pierden gente clave, las decisiones empiezan a tomarse en soledad cada vez más estrecha. Recuperar el balance pide volver a escuchar antes que decidir.",
-          en: null
+          en: "Reversed, the card marks the abuse of power. What was vision turned into the imposition of a single judgment, what was confidence turned to arrogance, what was action turned to running over. Others step away, the projects lose key people, decisions start being made in increasingly narrow solitude. Recovering the balance asks for returning to listening before deciding."
         }
       },
       relacional: {
         corto: {
           es: "En lo afectivo, una pareja donde uno impone su agenda sin consultar. En lo material, decisiones empresariales tomadas con arrogancia que costaron oportunidades.",
-          en: null
+          en: "In love, a couple where one imposes their agenda without consulting. Materially, business decisions made with arrogance that cost opportunities."
         },
         largo: {
           es: "Afectivamente, hay una persona (o uno mismo) acostumbrada a decidir por dos, marcar el ritmo, definir prioridades sin consultar. La pareja se vuelve subordinación. En lo financiero, hay decisiones de negocio o carrera tomadas con tanta confianza que se ignoraron señales: una sociedad mal evaluada, una expansión sin pruebas, un cambio de rumbo desoyendo asesores. La humildad de revisar lo que no funcionó es la salida.",
-          en: null
+          en: "Emotionally, there is a person (or yourself) accustomed to deciding for two, setting the pace, defining priorities without consulting. The couple becomes subordination. Financially, there are business or career decisions made with such confidence that signs were ignored: a badly evaluated partnership, an expansion without testing, a course change ignoring advisors. The humility of reviewing what did not work is the way out."
         }
       }
     },
