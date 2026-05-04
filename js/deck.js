@@ -2935,7 +2935,7 @@ const DECK = [
       general: {
         corto: {
           es: "Un movimiento gradual hacia mejor terreno. La transición no es heroica, es necesaria.",
-          en: "A gradual movement toward better ground. The transition is not heroic, it is necessary."
+          en: "A gradual movement toward better ground. The transition is necessary rather than heroic."
         },
         largo: {
           es: "La carta describe el paso lento desde una situación difícil hacia algo más calmo. La travesía pide paciencia, sin esperar escapes brillantes. Hay tristeza por lo que se deja atrás y al mismo tiempo claridad sobre la necesidad de hacerlo. El destino aún no se ve del todo, y avanzar pide confiar en el rumbo elegido.",
@@ -3342,7 +3342,7 @@ const DECK = [
         },
         largo: {
           es: "Afectivamente, hay una persona que sufrió y ahora trata a cada nueva posibilidad con la sospecha de la anterior. La autoprotección entendible se convirtió en barrera que aleja a quien no merece sospecha. En lo financiero, hay desconfianza extrema: no prestar nunca, no compartir información financiera con la pareja, no invertir por temor. La cautela que protege también puede paralizar.",
-          en: "Emotionally, there is a person who suffered and now treats every new possibility with the suspicion of the previous one. The understandable self-protection turned into a barrier that pushes away whoever does not deserve suspicion. Financially, there is extreme distrust: never lending, not sharing financial information with the partner, not investing out of fear. The caution that protects can also paralyze."
+          en: "Emotionally, there is a person who suffered and treats every new possibility with the suspicion of the previous one. The understandable self-protection turned into a barrier that pushes away whoever does not deserve suspicion. Financially, there is extreme distrust: never lending, not sharing financial information with the partner, not investing out of fear. The caution that protects can also paralyze."
         }
       }
     },
