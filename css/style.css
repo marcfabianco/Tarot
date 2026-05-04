@@ -1,52 +1,129 @@
-/* css/style.css — Layout mínimo. Pase estético todavía pendiente. */
+/* css/style.css — Pase estético. Paleta de marcfabianco. */
+
+:root {
+  --bg:           #0E0E14; /* charcoal base */
+  --bg-elevated:  #14121C; /* sutil contraste para bloques */
+  --indigo:       #2A1D4E; /* mystical shadow */
+  --amethyst:     #9648BF; /* dominant orb */
+  --teal:         #26A3A3; /* outer wisps */
+  --gold:         #B48639; /* symbols, jewelry */
+  --text:         #E8E2DC; /* off-white cálido */
+  --text-muted:   #8F8275; /* muted gold-gray */
+  --border:       rgba(180, 134, 57, 0.22); /* gold sutil para bordes */
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
 
 body {
-  font-family: Georgia, serif;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1.5rem;
-  line-height: 1.5;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.65;
+  min-height: 100vh;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2rem;
+main, header, footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
+
+/* ============== HEADER + HERO ============== */
+
+header {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+#hero-image {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 12px 40px rgba(150, 72, 191, 0.18),
+              0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 1.25rem;
+  text-shadow: 0 0 24px rgba(180, 134, 57, 0.18);
+}
+
+/* ============== LANG BUTTONS ============== */
 
 #lang-buttons {
   display: flex;
+  justify-content: center;
   gap: 0.5rem;
+  margin-bottom: 0;
 }
 
 #lang-buttons button {
-  padding: 0.25rem 0.75rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  padding: 0.4rem 1rem;
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  border-radius: 2px;
   cursor: pointer;
-  border: 1px solid #999;
-  background: #fff;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+#lang-buttons button:hover {
+  background: rgba(180, 134, 57, 0.12);
 }
 
 #lang-buttons button.active {
-  background: #222;
-  color: #fff;
-  border-color: #222;
+  background: var(--amethyst);
+  color: var(--text);
+  border-color: var(--amethyst);
 }
+
+/* ============== DRAW BUTTON ============== */
 
 #draw-button {
   display: block;
-  margin: 0 auto 2rem;
-  padding: 0.5rem 1.25rem;
+  margin: 2rem auto 2.5rem;
+  padding: 0.75rem 2rem;
+  font-family: inherit;
   font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: var(--amethyst);
+  border: 1px solid transparent;
+  border-radius: 2px;
   cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 18px rgba(150, 72, 191, 0.22);
 }
 
-/* Tres cartas en fila: pasado | presente | futuro */
+#draw-button:hover {
+  background: var(--teal);
+  box-shadow: 0 6px 22px rgba(38, 163, 163, 0.32);
+}
+
+/* ============== CARDS ============== */
+
 #cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-bottom: 3rem;
+  gap: 1.75rem;
+  margin-bottom: 3.5rem;
 }
 
 .card-block {
@@ -54,12 +131,14 @@ header {
 }
 
 .card-block h2 {
-  font-size: 0.95rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-family: Georgia, serif;
+  font-style: italic;
   font-weight: 400;
-  margin: 0 0 0.75rem;
-  color: #666;
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 1rem;
 }
 
 .card-block img {
@@ -67,47 +146,89 @@ header {
   max-width: 180px;
   height: auto;
   display: block;
-  margin: 0 auto 0.75rem;
+  margin: 0 auto 1rem;
+  border-radius: 3px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6),
+              0 0 0 1px var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-block img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.7),
+              0 0 0 1px rgba(180, 134, 57, 0.5);
 }
 
 .card-name {
   font-weight: 600;
+  color: var(--text);
+  font-size: 0.95rem;
   margin: 0 0 0.5rem;
 }
 
 .card-corto {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
   margin: 0;
   text-align: left;
+  line-height: 1.55;
 }
 
-/* Narrativa larga: bloques apilados verticalmente */
+/* ============== NARRATIVA ============== */
+
 #narrative {
-  max-width: 720px;
+  max-width: 680px;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .narr-block {
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .narr-block h3 {
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: Georgia, serif;
   font-style: italic;
-  margin: 0 0 0.5rem;
-  color: #555;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .narr-block p {
   margin: 0;
+  color: var(--text);
 }
+
+/* ============== FOOTER ============== */
 
 footer {
   margin-top: 3rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ddd;
+  padding-top: 1.25rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid var(--border);
   text-align: center;
-  font-size: 0.85rem;
-  color: #888;
+}
+
+#disclaimer {
+  margin: 0;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+/* ============== RESPONSIVE ============== */
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  #title { font-size: 1.75rem; letter-spacing: 0.24em; }
+  #cards {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .card-block img { max-width: 220px; }
 }
